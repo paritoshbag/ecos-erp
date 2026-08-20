@@ -1,0 +1,11 @@
+{
+    "version": "0.0.1",
+    "configurations": [
+        {
+            "name": "ecm",
+            "runtimeExecutable": "C:\\Users\\parit\\.config\\herd\\bin\\php85\\php.exe",
+            "runtimeArgs": ["artisan", "serve", "--port=8321"],
+            "port": 8321
+        }
+    ]
+}

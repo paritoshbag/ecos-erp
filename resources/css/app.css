@@ -1,0 +1,698 @@
+@import 'tailwindcss';
+
+@import 'tw-animate-css';
+
+@source '../views';
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * ============================================================================
+ * ECOS — design tokens
+ * ============================================================================
+ * Three runtime levers sit above every other token. They are plain custom
+ * properties on <html>, written by resources/js/hooks/use-ui-preferences.ts and
+ * pre-applied by the inline boot script in resources/views/app.blade.php so the
+ * first paint is already correct.
+ *
+ *   --ui-zoom        whole-interface zoom  (scales the rem unit: type + layout)
+ *   --ui-font-scale  text only             (scales the type ramp, not spacing)
+ *   --ui-density     spacing only          (scales Tailwind's --spacing unit)
+ *
+ * Density is the important one for an ERP: every p-*, gap-*, m-*, space-* and
+ * size-* utility derives from --spacing, so one multiplier tightens the whole
+ * application without touching a single component.
+ */
+:root {
+    --ui-zoom: 1;
+    --ui-font-scale: 1;
+    --ui-density: 1;
+}
+
+@theme {
+    /*
+     * Neutral, workmanlike UI grotesque. No calligraphic or cursive letterforms
+     * anywhere in the stack — this is an instrument panel, not a brochure.
+     */
+    --font-sans:
+        'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+        'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji';
+    --font-display:
+        'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+        sans-serif;
+    --font-mono:
+        'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas,
+        monospace;
+
+    /*
+     * Type ramp — one step tighter than stock Tailwind. Body copy lands at
+     * 13px and page chrome at 12px, the density professional admin consoles
+     * run at. Every step is multiplied by --ui-font-scale so the accessibility
+     * menu can grow text without disturbing layout rhythm.
+     */
+    --text-2xs: calc(0.6875rem * var(--ui-font-scale));
+    --text-2xs--line-height: 1.45;
+    --text-xs: calc(0.75rem * var(--ui-font-scale));
+    --text-xs--line-height: 1.45;
+    --text-sm: calc(0.8125rem * var(--ui-font-scale));
+    --text-sm--line-height: 1.5;
+    --text-base: calc(0.875rem * var(--ui-font-scale));
+    --text-base--line-height: 1.55;
+    --text-lg: calc(1rem * var(--ui-font-scale));
+    --text-lg--line-height: 1.5;
+    --text-xl: calc(1.125rem * var(--ui-font-scale));
+    --text-xl--line-height: 1.4;
+    --text-2xl: calc(1.375rem * var(--ui-font-scale));
+    --text-2xl--line-height: 1.3;
+    --text-3xl: calc(1.75rem * var(--ui-font-scale));
+    --text-3xl--line-height: 1.22;
+    --text-4xl: calc(2.125rem * var(--ui-font-scale));
+    --text-4xl--line-height: 1.15;
+    --text-5xl: calc(2.75rem * var(--ui-font-scale));
+    --text-5xl--line-height: 1.08;
+
+    /* Density lever. Stock Tailwind is 0.25rem; every spacing utility scales. */
+    --spacing: calc(0.25rem * var(--ui-density));
+
+    --radius-lg: var(--radius);
+    --radius-md: calc(var(--radius) - 2px);
+    --radius-sm: calc(var(--radius) - 4px);
+    --radius-xl: calc(var(--radius) + 4px);
+
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+
+    --color-card: var(--card);
+    --color-card-foreground: var(--card-foreground);
+
+    --color-popover: var(--popover);
+    --color-popover-foreground: var(--popover-foreground);
+
+    --color-primary: var(--primary);
+    --color-primary-foreground: var(--primary-foreground);
+
+    --color-secondary: var(--secondary);
+    --color-secondary-foreground: var(--secondary-foreground);
+
+    --color-muted: var(--muted);
+    --color-muted-foreground: var(--muted-foreground);
+
+    --color-accent: var(--accent);
+    --color-accent-foreground: var(--accent-foreground);
+
+    --color-destructive: var(--destructive);
+    --color-destructive-foreground: var(--destructive-foreground);
+
+    --color-success: var(--success);
+    --color-success-foreground: var(--success-foreground);
+
+    --color-warning: var(--warning);
+    --color-warning-foreground: var(--warning-foreground);
+
+    --color-info: var(--info);
+    --color-info-foreground: var(--info-foreground);
+
+    --color-border: var(--border);
+    --color-input: var(--input);
+    --color-ring: var(--ring);
+
+    --color-chart-1: var(--chart-1);
+    --color-chart-2: var(--chart-2);
+    --color-chart-3: var(--chart-3);
+    --color-chart-4: var(--chart-4);
+    --color-chart-5: var(--chart-5);
+
+    --color-sidebar: var(--sidebar);
+    --color-sidebar-foreground: var(--sidebar-foreground);
+    --color-sidebar-muted-foreground: var(--sidebar-muted-foreground);
+    --color-sidebar-primary: var(--sidebar-primary);
+    --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+    --color-sidebar-accent: var(--sidebar-accent);
+    --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+    --color-sidebar-border: var(--sidebar-border);
+    --color-sidebar-ring: var(--sidebar-ring);
+
+    --color-topbar: var(--topbar);
+    --color-topbar-foreground: var(--topbar-foreground);
+    --color-topbar-muted-foreground: var(--topbar-muted-foreground);
+    --color-topbar-accent: var(--topbar-accent);
+    --color-topbar-accent-foreground: var(--topbar-accent-foreground);
+    --color-topbar-border: var(--topbar-border);
+    --color-topbar-ring: var(--topbar-ring);
+}
+
+/*
+ * Surface + accent tokens
+ * -----------------------
+ * `:root`             → default accent ("ECOS Indigo"), light mode.
+ * `.dark`             → dark mode for the active accent.
+ * `[data-accent='x']` → alternate accent palettes.
+ *
+ * Sidebar and topbar chrome are NOT defined here — they are owned by the skin
+ * system further down, so a contractor can run dark navigation over a light
+ * workspace (the standard admin-console look) or any other combination.
+ *
+ * Chart colors are a fixed, accessibility-validated categorical palette
+ * (adjacent-pair CVD-safe in both modes) and are intentionally NOT re-themed
+ * per accent: data series keep their identity across themes.
+ */
+:root {
+    --background: oklch(0.985 0.002 277);
+    --foreground: oklch(0.175 0.015 277);
+    --card: oklch(1 0 0);
+    --card-foreground: oklch(0.175 0.015 277);
+    --popover: oklch(1 0 0);
+    --popover-foreground: oklch(0.175 0.015 277);
+    --primary: oklch(0.51 0.23 277);
+    --primary-foreground: oklch(0.985 0.005 277);
+    --secondary: oklch(0.955 0.008 277);
+    --secondary-foreground: oklch(0.3 0.06 277);
+    --muted: oklch(0.962 0.005 277);
+    --muted-foreground: oklch(0.5 0.02 277);
+    --accent: oklch(0.94 0.018 277);
+    --accent-foreground: oklch(0.3 0.08 277);
+    --destructive: oklch(0.577 0.245 27.325);
+    --destructive-foreground: oklch(0.985 0 0);
+    --success: oklch(0.6 0.13 160);
+    --success-foreground: oklch(0.985 0 0);
+    --warning: oklch(0.75 0.15 75);
+    --warning-foreground: oklch(0.25 0.05 75);
+    --info: oklch(0.62 0.14 235);
+    --info-foreground: oklch(0.985 0 0);
+    --border: oklch(0.915 0.006 277);
+    --input: oklch(0.895 0.008 277);
+    --ring: oklch(0.65 0.16 277);
+    --chart-1: #2a78d6;
+    --chart-2: #eb6834;
+    --chart-3: #1baf7a;
+    --chart-4: #eda100;
+    --chart-5: #e87ba4;
+    --radius: 0.5rem;
+}
+
+.dark {
+    --background: oklch(0.155 0.015 277);
+    --foreground: oklch(0.94 0.008 277);
+    --card: oklch(0.192 0.018 277);
+    --card-foreground: oklch(0.94 0.008 277);
+    --popover: oklch(0.2 0.018 277);
+    --popover-foreground: oklch(0.94 0.008 277);
+    --primary: oklch(0.68 0.17 277);
+    --primary-foreground: oklch(0.145 0.02 277);
+    --secondary: oklch(0.255 0.025 277);
+    --secondary-foreground: oklch(0.92 0.012 277);
+    --muted: oklch(0.235 0.02 277);
+    --muted-foreground: oklch(0.7 0.015 277);
+    --accent: oklch(0.28 0.04 277);
+    --accent-foreground: oklch(0.93 0.015 277);
+    --destructive: oklch(0.55 0.2 25.7);
+    --destructive-foreground: oklch(0.97 0.01 20);
+    --success: oklch(0.68 0.14 160);
+    --success-foreground: oklch(0.16 0.03 160);
+    --warning: oklch(0.78 0.15 80);
+    --warning-foreground: oklch(0.22 0.05 80);
+    --info: oklch(0.7 0.13 235);
+    --info-foreground: oklch(0.16 0.03 235);
+    --border: oklch(0.27 0.02 277);
+    --input: oklch(0.3 0.022 277);
+    --ring: oklch(0.6 0.16 277);
+    --chart-1: #3987e5;
+    --chart-2: #d95926;
+    --chart-3: #199e70;
+    --chart-4: #c98500;
+    --chart-5: #d55181;
+}
+
+/* Alternate accent: "Ocean" — deep teal. */
+[data-accent='ocean'] {
+    --primary: oklch(0.52 0.11 215);
+    --primary-foreground: oklch(0.985 0.005 215);
+    --secondary-foreground: oklch(0.32 0.06 215);
+    --accent: oklch(0.935 0.02 215);
+    --accent-foreground: oklch(0.3 0.07 215);
+    --ring: oklch(0.65 0.1 215);
+}
+
+.dark[data-accent='ocean'] {
+    --primary: oklch(0.72 0.11 210);
+    --primary-foreground: oklch(0.15 0.03 215);
+    --accent: oklch(0.28 0.04 215);
+    --accent-foreground: oklch(0.93 0.015 215);
+    --ring: oklch(0.62 0.1 212);
+}
+
+/* Alternate accent: "Forest" — emerald. */
+[data-accent='forest'] {
+    --primary: oklch(0.52 0.12 160);
+    --primary-foreground: oklch(0.985 0.005 160);
+    --secondary-foreground: oklch(0.32 0.06 160);
+    --accent: oklch(0.94 0.02 160);
+    --accent-foreground: oklch(0.3 0.07 160);
+    --ring: oklch(0.65 0.11 160);
+}
+
+.dark[data-accent='forest'] {
+    --primary: oklch(0.72 0.13 158);
+    --primary-foreground: oklch(0.15 0.04 160);
+    --accent: oklch(0.28 0.04 160);
+    --accent-foreground: oklch(0.93 0.015 160);
+    --ring: oklch(0.62 0.11 158);
+}
+
+/* Alternate accent: "Voltage" — the electrical-trade amber. */
+[data-accent='voltage'] {
+    --primary: oklch(0.62 0.16 62);
+    --primary-foreground: oklch(0.16 0.03 62);
+    --secondary-foreground: oklch(0.34 0.06 62);
+    --accent: oklch(0.94 0.03 68);
+    --accent-foreground: oklch(0.32 0.08 62);
+    --ring: oklch(0.7 0.14 62);
+}
+
+.dark[data-accent='voltage'] {
+    --primary: oklch(0.76 0.15 68);
+    --primary-foreground: oklch(0.16 0.04 62);
+    --accent: oklch(0.3 0.05 62);
+    --accent-foreground: oklch(0.94 0.02 68);
+    --ring: oklch(0.7 0.13 65);
+}
+
+/*
+ * ============================================================================
+ * Navigation chrome skins
+ * ============================================================================
+ * The sidebar and the topbar each pick their own skin, independently of the
+ * light/dark workspace theme — exactly how a commercial admin template ships.
+ * Selected via `data-sidebar-skin` / `data-topbar-skin` on <html>.
+ *
+ * `default` follows the workspace surface. Every other skin is self-contained,
+ * so "dark navigation over a light workspace" renders correctly in either
+ * theme. Adding a skin = add the two blocks below + an entry in
+ * resources/js/lib/chrome-skins.ts.
+ */
+
+/* --- sidebar: default (follows the workspace theme) ---------------------- */
+:root,
+[data-sidebar-skin='default'] {
+    --sidebar: oklch(0.975 0.004 277);
+    --sidebar-foreground: oklch(0.32 0.025 277);
+    --sidebar-muted-foreground: oklch(0.52 0.02 277);
+    --sidebar-primary: oklch(0.51 0.23 277);
+    --sidebar-primary-foreground: oklch(0.985 0.005 277);
+    --sidebar-accent: oklch(0.925 0.018 277);
+    --sidebar-accent-foreground: oklch(0.26 0.08 277);
+    --sidebar-border: oklch(0.908 0.007 277);
+    --sidebar-ring: oklch(0.65 0.16 277);
+}
+
+.dark,
+.dark[data-sidebar-skin='default'] {
+    --sidebar: oklch(0.132 0.014 277);
+    --sidebar-foreground: oklch(0.87 0.012 277);
+    --sidebar-muted-foreground: oklch(0.64 0.015 277);
+    --sidebar-primary: oklch(0.68 0.17 277);
+    --sidebar-primary-foreground: oklch(0.145 0.02 277);
+    --sidebar-accent: oklch(0.235 0.028 277);
+    --sidebar-accent-foreground: oklch(0.94 0.015 277);
+    --sidebar-border: oklch(0.235 0.02 277);
+    --sidebar-ring: oklch(0.6 0.16 277);
+}
+
+/* --- topbar: default (follows the workspace theme) ----------------------- */
+:root,
+[data-topbar-skin='default'] {
+    --topbar: oklch(1 0 0);
+    --topbar-foreground: oklch(0.22 0.015 277);
+    --topbar-muted-foreground: oklch(0.5 0.02 277);
+    --topbar-accent: oklch(0.955 0.008 277);
+    --topbar-accent-foreground: oklch(0.26 0.06 277);
+    --topbar-border: oklch(0.915 0.006 277);
+    --topbar-ring: oklch(0.65 0.16 277);
+}
+
+.dark,
+.dark[data-topbar-skin='default'] {
+    --topbar: oklch(0.185 0.017 277);
+    --topbar-foreground: oklch(0.93 0.008 277);
+    --topbar-muted-foreground: oklch(0.68 0.015 277);
+    --topbar-accent: oklch(0.26 0.028 277);
+    --topbar-accent-foreground: oklch(0.95 0.012 277);
+    --topbar-border: oklch(0.27 0.02 277);
+    --topbar-ring: oklch(0.6 0.16 277);
+}
+
+/* --- skin: light (stays light even in dark mode) ------------------------- */
+[data-sidebar-skin='light'],
+.dark[data-sidebar-skin='light'] {
+    --sidebar: oklch(1 0 0);
+    --sidebar-foreground: oklch(0.3 0.02 277);
+    --sidebar-muted-foreground: oklch(0.52 0.018 277);
+    --sidebar-primary: oklch(0.51 0.23 277);
+    --sidebar-primary-foreground: oklch(0.985 0.005 277);
+    --sidebar-accent: oklch(0.945 0.014 277);
+    --sidebar-accent-foreground: oklch(0.26 0.08 277);
+    --sidebar-border: oklch(0.915 0.006 277);
+    --sidebar-ring: oklch(0.65 0.16 277);
+}
+
+[data-topbar-skin='light'],
+.dark[data-topbar-skin='light'] {
+    --topbar: oklch(1 0 0);
+    --topbar-foreground: oklch(0.22 0.015 277);
+    --topbar-muted-foreground: oklch(0.5 0.02 277);
+    --topbar-accent: oklch(0.952 0.01 277);
+    --topbar-accent-foreground: oklch(0.26 0.06 277);
+    --topbar-border: oklch(0.912 0.006 277);
+    --topbar-ring: oklch(0.65 0.16 277);
+}
+
+/* --- skin: slate --------------------------------------------------------- */
+[data-sidebar-skin='slate'],
+.dark[data-sidebar-skin='slate'] {
+    --sidebar: oklch(0.245 0.018 258);
+    --sidebar-foreground: oklch(0.855 0.012 258);
+    --sidebar-muted-foreground: oklch(0.655 0.015 258);
+    --sidebar-primary: oklch(0.72 0.14 258);
+    --sidebar-primary-foreground: oklch(0.16 0.03 258);
+    --sidebar-accent: oklch(0.315 0.026 258);
+    --sidebar-accent-foreground: oklch(0.97 0.008 258);
+    --sidebar-border: oklch(0.305 0.02 258);
+    --sidebar-ring: oklch(0.68 0.13 258);
+}
+
+[data-topbar-skin='slate'],
+.dark[data-topbar-skin='slate'] {
+    --topbar: oklch(0.275 0.02 258);
+    --topbar-foreground: oklch(0.93 0.01 258);
+    --topbar-muted-foreground: oklch(0.72 0.014 258);
+    --topbar-accent: oklch(0.35 0.028 258);
+    --topbar-accent-foreground: oklch(0.97 0.008 258);
+    --topbar-border: oklch(0.335 0.022 258);
+    --topbar-ring: oklch(0.68 0.13 258);
+}
+
+/* --- skin: midnight ------------------------------------------------------ */
+[data-sidebar-skin='midnight'],
+.dark[data-sidebar-skin='midnight'] {
+    --sidebar: oklch(0.168 0.014 265);
+    --sidebar-foreground: oklch(0.845 0.011 265);
+    --sidebar-muted-foreground: oklch(0.63 0.014 265);
+    --sidebar-primary: oklch(0.7 0.15 270);
+    --sidebar-primary-foreground: oklch(0.14 0.03 265);
+    --sidebar-accent: oklch(0.245 0.026 265);
+    --sidebar-accent-foreground: oklch(0.965 0.008 265);
+    --sidebar-border: oklch(0.235 0.018 265);
+    --sidebar-ring: oklch(0.66 0.14 270);
+}
+
+[data-topbar-skin='midnight'],
+.dark[data-topbar-skin='midnight'] {
+    --topbar: oklch(0.198 0.016 265);
+    --topbar-foreground: oklch(0.925 0.01 265);
+    --topbar-muted-foreground: oklch(0.705 0.013 265);
+    --topbar-accent: oklch(0.275 0.028 265);
+    --topbar-accent-foreground: oklch(0.965 0.008 265);
+    --topbar-border: oklch(0.265 0.02 265);
+    --topbar-ring: oklch(0.66 0.14 270);
+}
+
+/* --- skin: navy ---------------------------------------------------------- */
+[data-sidebar-skin='navy'],
+.dark[data-sidebar-skin='navy'] {
+    --sidebar: oklch(0.242 0.055 260);
+    --sidebar-foreground: oklch(0.86 0.025 260);
+    --sidebar-muted-foreground: oklch(0.665 0.03 260);
+    --sidebar-primary: oklch(0.74 0.13 245);
+    --sidebar-primary-foreground: oklch(0.16 0.04 260);
+    --sidebar-accent: oklch(0.315 0.062 260);
+    --sidebar-accent-foreground: oklch(0.97 0.015 260);
+    --sidebar-border: oklch(0.3 0.055 260);
+    --sidebar-ring: oklch(0.7 0.12 245);
+}
+
+[data-topbar-skin='navy'],
+.dark[data-topbar-skin='navy'] {
+    --topbar: oklch(0.272 0.058 260);
+    --topbar-foreground: oklch(0.935 0.018 260);
+    --topbar-muted-foreground: oklch(0.735 0.028 260);
+    --topbar-accent: oklch(0.348 0.065 260);
+    --topbar-accent-foreground: oklch(0.97 0.015 260);
+    --topbar-border: oklch(0.332 0.058 260);
+    --topbar-ring: oklch(0.7 0.12 245);
+}
+
+/* --- skin: charcoal ------------------------------------------------------ */
+[data-sidebar-skin='charcoal'],
+.dark[data-sidebar-skin='charcoal'] {
+    --sidebar: oklch(0.232 0.002 275);
+    --sidebar-foreground: oklch(0.855 0.002 275);
+    --sidebar-muted-foreground: oklch(0.655 0.003 275);
+    --sidebar-primary: oklch(0.78 0.005 275);
+    --sidebar-primary-foreground: oklch(0.16 0.002 275);
+    --sidebar-accent: oklch(0.305 0.004 275);
+    --sidebar-accent-foreground: oklch(0.97 0.002 275);
+    --sidebar-border: oklch(0.295 0.003 275);
+    --sidebar-ring: oklch(0.7 0.004 275);
+}
+
+[data-topbar-skin='charcoal'],
+.dark[data-topbar-skin='charcoal'] {
+    --topbar: oklch(0.262 0.002 275);
+    --topbar-foreground: oklch(0.93 0.002 275);
+    --topbar-muted-foreground: oklch(0.72 0.003 275);
+    --topbar-accent: oklch(0.338 0.004 275);
+    --topbar-accent-foreground: oklch(0.97 0.002 275);
+    --topbar-border: oklch(0.325 0.003 275);
+    --topbar-ring: oklch(0.7 0.004 275);
+}
+
+/* --- skin: evergreen ----------------------------------------------------- */
+[data-sidebar-skin='evergreen'],
+.dark[data-sidebar-skin='evergreen'] {
+    --sidebar: oklch(0.228 0.04 168);
+    --sidebar-foreground: oklch(0.855 0.022 168);
+    --sidebar-muted-foreground: oklch(0.655 0.026 168);
+    --sidebar-primary: oklch(0.76 0.13 160);
+    --sidebar-primary-foreground: oklch(0.15 0.035 168);
+    --sidebar-accent: oklch(0.3 0.048 168);
+    --sidebar-accent-foreground: oklch(0.97 0.014 168);
+    --sidebar-border: oklch(0.288 0.042 168);
+    --sidebar-ring: oklch(0.7 0.12 160);
+}
+
+[data-topbar-skin='evergreen'],
+.dark[data-topbar-skin='evergreen'] {
+    --topbar: oklch(0.258 0.044 168);
+    --topbar-foreground: oklch(0.93 0.016 168);
+    --topbar-muted-foreground: oklch(0.725 0.024 168);
+    --topbar-accent: oklch(0.332 0.05 168);
+    --topbar-accent-foreground: oklch(0.97 0.014 168);
+    --topbar-border: oklch(0.318 0.044 168);
+    --topbar-ring: oklch(0.7 0.12 160);
+}
+
+/* --- skin: plum ---------------------------------------------------------- */
+[data-sidebar-skin='plum'],
+.dark[data-sidebar-skin='plum'] {
+    --sidebar: oklch(0.235 0.05 322);
+    --sidebar-foreground: oklch(0.858 0.024 322);
+    --sidebar-muted-foreground: oklch(0.66 0.028 322);
+    --sidebar-primary: oklch(0.75 0.14 322);
+    --sidebar-primary-foreground: oklch(0.15 0.04 322);
+    --sidebar-accent: oklch(0.308 0.058 322);
+    --sidebar-accent-foreground: oklch(0.97 0.015 322);
+    --sidebar-border: oklch(0.295 0.05 322);
+    --sidebar-ring: oklch(0.7 0.13 322);
+}
+
+[data-topbar-skin='plum'],
+.dark[data-topbar-skin='plum'] {
+    --topbar: oklch(0.265 0.052 322);
+    --topbar-foreground: oklch(0.932 0.018 322);
+    --topbar-muted-foreground: oklch(0.73 0.026 322);
+    --topbar-accent: oklch(0.34 0.06 322);
+    --topbar-accent-foreground: oklch(0.97 0.015 322);
+    --topbar-border: oklch(0.325 0.052 322);
+    --topbar-ring: oklch(0.7 0.13 322);
+}
+
+/* --- skin: brand (accent-tinted indigo) ---------------------------------- */
+[data-sidebar-skin='brand'],
+.dark[data-sidebar-skin='brand'] {
+    --sidebar: oklch(0.252 0.078 277);
+    --sidebar-foreground: oklch(0.868 0.03 277);
+    --sidebar-muted-foreground: oklch(0.678 0.035 277);
+    --sidebar-primary: oklch(0.8 0.13 277);
+    --sidebar-primary-foreground: oklch(0.16 0.05 277);
+    --sidebar-accent: oklch(0.325 0.09 277);
+    --sidebar-accent-foreground: oklch(0.975 0.018 277);
+    --sidebar-border: oklch(0.312 0.08 277);
+    --sidebar-ring: oklch(0.76 0.12 277);
+}
+
+[data-topbar-skin='brand'],
+.dark[data-topbar-skin='brand'] {
+    --topbar: oklch(0.282 0.082 277);
+    --topbar-foreground: oklch(0.94 0.022 277);
+    --topbar-muted-foreground: oklch(0.75 0.032 277);
+    --topbar-accent: oklch(0.355 0.092 277);
+    --topbar-accent-foreground: oklch(0.975 0.018 277);
+    --topbar-border: oklch(0.342 0.082 277);
+    --topbar-ring: oklch(0.76 0.12 277);
+}
+
+/*
+ * ============================================================================
+ * Accessibility modes
+ * ============================================================================
+ * Driven from the topbar accessibility menu. Each is a data attribute on
+ * <html>, so nothing needs to re-render for a preference to take effect.
+ */
+
+/* High contrast — push text to the rails and make every edge load-bearing. */
+[data-contrast='high'] {
+    --background: oklch(1 0 0);
+    --foreground: oklch(0 0 0);
+    --card: oklch(1 0 0);
+    --card-foreground: oklch(0 0 0);
+    --popover: oklch(1 0 0);
+    --popover-foreground: oklch(0 0 0);
+    --muted-foreground: oklch(0.32 0.01 277);
+    --secondary-foreground: oklch(0.12 0.02 277);
+    --accent-foreground: oklch(0.12 0.03 277);
+    --border: oklch(0.42 0.01 277);
+    --input: oklch(0.36 0.012 277);
+    --primary: oklch(0.36 0.2 277);
+    --primary-foreground: oklch(1 0 0);
+    --ring: oklch(0.36 0.2 277);
+    --sidebar-muted-foreground: var(--sidebar-foreground);
+    --topbar-muted-foreground: var(--topbar-foreground);
+}
+
+.dark[data-contrast='high'] {
+    --background: oklch(0.09 0.008 277);
+    --foreground: oklch(1 0 0);
+    --card: oklch(0.13 0.01 277);
+    --card-foreground: oklch(1 0 0);
+    --popover: oklch(0.13 0.01 277);
+    --popover-foreground: oklch(1 0 0);
+    --muted-foreground: oklch(0.84 0.008 277);
+    --secondary-foreground: oklch(0.97 0.005 277);
+    --accent-foreground: oklch(0.99 0.004 277);
+    --border: oklch(0.62 0.015 277);
+    --input: oklch(0.66 0.015 277);
+    --primary: oklch(0.82 0.14 277);
+    --primary-foreground: oklch(0.09 0.02 277);
+    --ring: oklch(0.86 0.13 277);
+}
+
+[data-contrast='high'] a:focus-visible,
+[data-contrast='high'] button:focus-visible,
+[data-contrast='high'] [role='button']:focus-visible,
+[data-contrast='high'] [role='menuitem']:focus-visible {
+    outline: 3px solid var(--ring);
+    outline-offset: 2px;
+}
+
+/*
+ * Reduced motion — user-selected, and independent of the OS setting so it can
+ * be switched on from inside the app on a shared workstation.
+ */
+[data-motion='reduced'] *,
+[data-motion='reduced'] *::before,
+[data-motion='reduced'] *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    html {
+        /* Zoom lever: resizes the rem unit, so type and layout scale together. */
+        font-size: calc(16px * var(--ui-zoom));
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-size-adjust: 100%;
+    }
+
+    body {
+        @apply bg-background text-sm text-foreground;
+    }
+
+    /*
+     * Headings share the body face. In a dense back office a heading is a
+     * label, not a statement — weight and tracking do the work, rather than a
+     * second typeface competing for attention.
+     */
+    h1,
+    h2,
+    h3,
+    h4 {
+        @apply font-display font-semibold;
+        letter-spacing: -0.011em;
+    }
+
+    /* Tables, inputs and figures all line up on the same numeral grid. */
+    table,
+    input,
+    output {
+        font-variant-numeric: tabular-nums;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: color-mix(
+            in oklab,
+            var(--muted-foreground) 32%,
+            transparent
+        );
+        border: 3px solid transparent;
+        border-radius: 9999px;
+        background-clip: content-box;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: color-mix(
+            in oklab,
+            var(--muted-foreground) 52%,
+            transparent
+        );
+    }
+}
+
+@layer utilities {
+    /* Aligned numerals for finance figures, tables, and axis ticks. */
+    .tabular-nums {
+        font-variant-numeric: tabular-nums;
+    }
+
+    /* Opt a subtree out of the density lever (charts, fixed-size canvases). */
+    .density-normal {
+        --ui-density: 1;
+    }
+}

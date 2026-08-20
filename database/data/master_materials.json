@@ -1,0 +1,2459 @@
+[
+    {
+        "id": 1,
+        "code": "0101011011",
+        "description": "M.S ANGLE 50 X 50 X 6MM.",
+        "unit": "MT",
+        "price": "64750.08"
+    },
+    {
+        "id": 2,
+        "code": "0101011311",
+        "description": "M.S ANGLE 65 X 65 X 6MM.",
+        "unit": "MT",
+        "price": "64036.19"
+    },
+    {
+        "id": 3,
+        "code": "0101011411",
+        "description": "M.S. ANGLE 65 X 65 X 8MM.",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 4,
+        "code": "0102010611",
+        "description": "M.S. CHANNEL 75 X 40MM",
+        "unit": "MT",
+        "price": "64036.19"
+    },
+    {
+        "id": 5,
+        "code": "0102010911",
+        "description": "M.S. CHANNEL 100 X 50MM",
+        "unit": "MT",
+        "price": "46403.04"
+    },
+    {
+        "id": 6,
+        "code": "0103011211",
+        "description": "M.S. FLAT 50 X 6MM",
+        "unit": "MT",
+        "price": "70461.22"
+    },
+    {
+        "id": 7,
+        "code": "0103011511",
+        "description": "M.S. FLAT 65 X 6MM",
+        "unit": "MT",
+        "price": "70461.22"
+    },
+    {
+        "id": 8,
+        "code": "0103011611",
+        "description": "M.S. FLAT 65 X 8MM",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 9,
+        "code": "0103011911",
+        "description": "M.S. FLAT 75 X 8MM",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 10,
+        "code": "0103020611",
+        "description": "GI FLAT 50X6MM",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 11,
+        "code": "0103020711",
+        "description": "GI FLAT 65X6MM",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 12,
+        "code": "0103020811",
+        "description": "GI FLAT 65X8MM",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 13,
+        "code": "0103020911",
+        "description": "GI FLAT 75X8MM",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 14,
+        "code": "0110010741",
+        "description": "STEEL TUB. POLE 11M (WITH CAP)",
+        "unit": "NOS",
+        "price": "11381.04"
+    },
+    {
+        "id": 15,
+        "code": "0110011141",
+        "description": "STEEL TUB. POLE 13M (WITH CAP)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 16,
+        "code": "0110020111",
+        "description": "RAIL POLE 24FT. (14.88KG)(31LBS)",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 17,
+        "code": "0110020211",
+        "description": "RAIL POLE 10-12M (90LBS)",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 18,
+        "code": "0110020311",
+        "description": "RAIL POLE 12.8M (44.61KG)(90LBS)",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 19,
+        "code": "0110020411",
+        "description": "RAIL POLE 12.8M (51.89KG)(105LBS)",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 20,
+        "code": "0110020511",
+        "description": "RAIL POLE 10-13M (52KG)",
+        "unit": "MT",
+        "price": "68390.41"
+    },
+    {
+        "id": 21,
+        "code": "0110020611",
+        "description": "RAIL POLE 10-13M (60KG.)",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 22,
+        "code": "0110030141",
+        "description": "PCC POLE 8M",
+        "unit": "NOS",
+        "price": "4193.25"
+    },
+    {
+        "id": 23,
+        "code": "0110030241",
+        "description": "PCC POLE 9M",
+        "unit": "NOS",
+        "price": "6589.23"
+    },
+    {
+        "id": 24,
+        "code": "0110040311",
+        "description": "Packing piece C.I. (for rail pole)",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 25,
+        "code": "0113020441",
+        "description": "FAB. D.P. TOP 75 X 40MM. - 2M LONG",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 26,
+        "code": "0113020641",
+        "description": "11KV \"V\" bracket for PCC pole 8M long",
+        "unit": "NOS",
+        "price": "684.00"
+    },
+    {
+        "id": 27,
+        "code": "0113020741",
+        "description": "11KV \"V\" bracket for PCC pole 9M long",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 28,
+        "code": "0113020841",
+        "description": "11 KV \"V\" bracket for rail pole",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 29,
+        "code": "0113020941",
+        "description": "33kv \"V\" bracket for PCC pole 9M long",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 30,
+        "code": "0113021141",
+        "description": "33 KV \"V\" bracket for rail pole",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 31,
+        "code": "0113021241",
+        "description": "11 KV TOP ADAPTOR for PCC pole 8M long",
+        "unit": "NOS",
+        "price": "248.00"
+    },
+    {
+        "id": 32,
+        "code": "0113021341",
+        "description": "11 KV TOP ADAPTOR for PCC pole 9M long",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 33,
+        "code": "0113021441",
+        "description": "11 KV TOP ADAPTOR for rail pole",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 34,
+        "code": "0113021541",
+        "description": "33 KV TOP ADAPTOR for PCC pole 9M long",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 35,
+        "code": "0113021641",
+        "description": "33 KV TOP ADAPTOR for rail pole",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 36,
+        "code": "0113021741",
+        "description": "MS  BRACKET-4WIRE",
+        "unit": "NOS",
+        "price": "312.00"
+    },
+    {
+        "id": 37,
+        "code": "0113021841",
+        "description": "MS  BRACKET-5WIRE",
+        "unit": "NOS",
+        "price": "364.00"
+    },
+    {
+        "id": 38,
+        "code": "0201050111",
+        "description": "G.I. BARBED WIRE",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 39,
+        "code": "0301010541",
+        "description": "DTR 10KVA 11/0.433KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "29921.00"
+    },
+    {
+        "id": 40,
+        "code": "0301011041",
+        "description": "DTR 16KVA 11/0.433KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "67034.12"
+    },
+    {
+        "id": 41,
+        "code": "0301011541",
+        "description": "DTR 25KVA 11/0.433KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "76971.41"
+    },
+    {
+        "id": 42,
+        "code": "0301012541",
+        "description": "DTR 63KVA 11/0.433KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "153205.02"
+    },
+    {
+        "id": 43,
+        "code": "0301013141",
+        "description": "DTR 100KVA 33/0.415KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "212742.16"
+    },
+    {
+        "id": 44,
+        "code": "0301013441",
+        "description": "DTR 100KVA 11/0.433KV 3PH O/D",
+        "unit": "NOS",
+        "price": "212742.16"
+    },
+    {
+        "id": 45,
+        "code": "0304010532",
+        "description": "ISL 11KV 200A TPGO",
+        "unit": "SET",
+        "price": "8368.41"
+    },
+    {
+        "id": 46,
+        "code": "0304010632",
+        "description": "ISL 11KV  400A TPGO",
+        "unit": "SET",
+        "price": "1.00"
+    },
+    {
+        "id": 47,
+        "code": "0304020832",
+        "description": "ISL 33KV 400A CR TYPE WO ES(L/L )",
+        "unit": "SET",
+        "price": "1.00"
+    },
+    {
+        "id": 48,
+        "code": "0304021132",
+        "description": "ISL 33KV 400A CR TYPE WH ES(H/L)",
+        "unit": "SET",
+        "price": "1.00"
+    },
+    {
+        "id": 49,
+        "code": "0304022332",
+        "description": "ISL 33KV 400A CRTYPE WO ES(H/L)",
+        "unit": "SET",
+        "price": "1.00"
+    },
+    {
+        "id": 50,
+        "code": "0307020241",
+        "description": "MS HOOD FOR MAINSWITCH",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 51,
+        "code": "0309010541",
+        "description": "LA 42 KV CLASS (10KA) FOR 33KV",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 52,
+        "code": "0309010841",
+        "description": "LA 12KV (5KA) FOR 11KV",
+        "unit": "NOS",
+        "price": "381.33"
+    },
+    {
+        "id": 53,
+        "code": "0391010541",
+        "description": "R-DTR 10KVA 11/0.433KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "29921.00"
+    },
+    {
+        "id": 54,
+        "code": "0391011041",
+        "description": "R-DTR 16KVA 11/0.433KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "67034.12"
+    },
+    {
+        "id": 55,
+        "code": "0391011541",
+        "description": "R-DTR 25KVA 11/0.433KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "76971.41"
+    },
+    {
+        "id": 56,
+        "code": "0391012541",
+        "description": "R-DTR 63KVA 11/0.433KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "153205.02"
+    },
+    {
+        "id": 57,
+        "code": "0391013141",
+        "description": "R-DTR 100KVA 33/0.415KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "212742.16"
+    },
+    {
+        "id": 58,
+        "code": "0391013441",
+        "description": "R-DTR 100KVA 11/0.433KV 3PH O/D",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 59,
+        "code": "0406010841",
+        "description": "Plfer proof meter box for 1PH",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 60,
+        "code": "0406010941",
+        "description": "PP box - single door",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 61,
+        "code": "0406011041",
+        "description": "PP box - double door",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 62,
+        "code": "0406020541",
+        "description": "Plfer proof meter box for 3PH",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 63,
+        "code": "0406020641",
+        "description": "PP box for 3PH static meter ( 3 x 5-30A)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 64,
+        "code": "0406020741",
+        "description": "PP box for 3PH meter ( 900 x 350 x 250)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 65,
+        "code": "0407010141",
+        "description": "LT MTERING KIOSK",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 66,
+        "code": "0407010541",
+        "description": "LT distribution KIOSK for 100KVA TRNF.",
+        "unit": "NOS",
+        "price": "7881.00"
+    },
+    {
+        "id": 67,
+        "code": "0407010641",
+        "description": "LT distribution KIOSK for 25KVA TRNF.",
+        "unit": "NOS",
+        "price": "7881.00"
+    },
+    {
+        "id": 68,
+        "code": "0407010741",
+        "description": "LT distribution KIOSK for 63KVA TRNF.",
+        "unit": "NOS",
+        "price": "7881.00"
+    },
+    {
+        "id": 69,
+        "code": "0407012141",
+        "description": "LT DIST KIOSK FOR 25KVA TRNF(SMC/FRP)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 70,
+        "code": "0407012241",
+        "description": "LT DIST KIOSK FOR 63KVA TRNF(SMC/FRP)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 71,
+        "code": "0407012341",
+        "description": "LT DIST KIOSK FOR 100KVA TRNF(SMC/FRP)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 72,
+        "code": "0501010321",
+        "description": "1.1KVPVC1X 2.5 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 73,
+        "code": "0501010521",
+        "description": "1.1KVPVC1X 4 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 74,
+        "code": "0501010621",
+        "description": "1.1KVPVC1X 6 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 75,
+        "code": "0501010721",
+        "description": "1.1KVPVC1X 10 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 76,
+        "code": "0501010821",
+        "description": "1.1KVPVC1X 16 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 77,
+        "code": "0501010921",
+        "description": "1.1KVPVC1X25 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 78,
+        "code": "0501011121",
+        "description": "1.1KVPVC1X50 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 79,
+        "code": "0501011221",
+        "description": "1.1KVPVC1X70 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 80,
+        "code": "0501011321",
+        "description": "1.1KVPVC1X95 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 81,
+        "code": "0501011421",
+        "description": "1.1KVPVC1X120 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 82,
+        "code": "0501011521",
+        "description": "1.1KVPVC1X150 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 83,
+        "code": "0501011621",
+        "description": "1.1KVPVC1X185 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 84,
+        "code": "0501011721",
+        "description": "1.1KVPVC1X240 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 85,
+        "code": "0501011821",
+        "description": "1.1KVPVC1X300 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 86,
+        "code": "0501012621",
+        "description": "1.1KVPVC2X1.5 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 87,
+        "code": "0501012721",
+        "description": "1.1KVPVC2X2 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 88,
+        "code": "0501012821",
+        "description": "1.1KVPVC2X2.5 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 89,
+        "code": "0501012921",
+        "description": "1.1KVPVC2X4 SMM AL CABLE",
+        "unit": "KM",
+        "price": "5177.00"
+    },
+    {
+        "id": 90,
+        "code": "0501013021",
+        "description": "1.1KVPVC2X6 SMM AL CABLE",
+        "unit": "KM",
+        "price": "23583.93"
+    },
+    {
+        "id": 91,
+        "code": "0501013121",
+        "description": "1.1KVPVC2X10 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 92,
+        "code": "0501015121",
+        "description": "1.1KVPVC3.5C 25SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 93,
+        "code": "0501015221",
+        "description": "1.1KVPVC3.5C 35SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 94,
+        "code": "0501015321",
+        "description": "1.1KVPVC3.5C 50SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 95,
+        "code": "0501015421",
+        "description": "1.1KVPVC3.5C 70SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 96,
+        "code": "0501015521",
+        "description": "1.1KVPVC3.5C 95SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 97,
+        "code": "0501015621",
+        "description": "1.1KVPVC3.5C 120SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 98,
+        "code": "0501015721",
+        "description": "1.1KVPVC3.5C 150SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 99,
+        "code": "0501015821",
+        "description": "1.1KVPVC3.5C 185SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 100,
+        "code": "0501015921",
+        "description": "1.1KVPVC3.5C 240SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 101,
+        "code": "0501016021",
+        "description": "1.1KVPVC3.5C 300SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 102,
+        "code": "0501017121",
+        "description": "1.1KVPVC4C 4 SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 103,
+        "code": "0501017221",
+        "description": "1.1KVPVC4C 6SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 104,
+        "code": "0501017421",
+        "description": "1.1KVPVC4C 10SMM AL CABLE",
+        "unit": "KM",
+        "price": "72527.54"
+    },
+    {
+        "id": 105,
+        "code": "0501017721",
+        "description": "1.1KVPVC4C 16SMM AL CABLE",
+        "unit": "KM",
+        "price": "103013.58"
+    },
+    {
+        "id": 106,
+        "code": "0501017821",
+        "description": "1.1KVPVC4C 25 SMM AL CABLE",
+        "unit": "KM",
+        "price": "95720.08"
+    },
+    {
+        "id": 107,
+        "code": "0501017921",
+        "description": "1.1KVPVC4C 50SMM AL CABLE",
+        "unit": "KM",
+        "price": "167516.40"
+    },
+    {
+        "id": 108,
+        "code": "0501018021",
+        "description": "1.1KVPVC4C 70SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 109,
+        "code": "0501018121",
+        "description": "1.1KVPVC4C 120SMM AL CABLE",
+        "unit": "KM",
+        "price": "423865.16"
+    },
+    {
+        "id": 110,
+        "code": "0501018221",
+        "description": "1.1KVPVC4C 185SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 111,
+        "code": "0501018321",
+        "description": "1.1KVPVC4C 300SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 112,
+        "code": "0501018421",
+        "description": "1.1KVPVC1C 240SMM AL CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 113,
+        "code": "0501020321",
+        "description": "1.1KVXLPE1C 25SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 114,
+        "code": "0501020421",
+        "description": "1.1KVXLPE1C 50SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 115,
+        "code": "0501020521",
+        "description": "1.1KVXLPE1C95SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 116,
+        "code": "0501020621",
+        "description": "1.1KVXLPE1C120SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 117,
+        "code": "0501020721",
+        "description": "1.1KVXLPE1C185SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 118,
+        "code": "0501020821",
+        "description": "1.1KVXLPE1C240SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 119,
+        "code": "0501020921",
+        "description": "1.1KVXLPE1C300SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 120,
+        "code": "0501021321",
+        "description": "1.1KVXLPE2C6SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 121,
+        "code": "0501021421",
+        "description": "1.1KVXLPE2C10SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 122,
+        "code": "0501021721",
+        "description": "1.1KVXLPE3.5C25SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 123,
+        "code": "0501021821",
+        "description": "1.1KVXLPE3.5C50SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 124,
+        "code": "0501021921",
+        "description": "1.1KVXLPE3.5C95SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 125,
+        "code": "0501022021",
+        "description": "1.1KVXLPE4C6SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 126,
+        "code": "0501022121",
+        "description": "1.1KVXLPE4C10SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 127,
+        "code": "0501022221",
+        "description": "1.1KVXLPE4C25SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 128,
+        "code": "501022321",
+        "description": "1.1KVXLPE4C50SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 129,
+        "code": "0501022421",
+        "description": "1.1KVXLPE4C120SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 130,
+        "code": "0501022521",
+        "description": "1.1KVXLPE4C185SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 131,
+        "code": "0501022621",
+        "description": "1.1KVXLPE4C300SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 132,
+        "code": "0501023221",
+        "description": "11KVXLPE1C185SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 133,
+        "code": "0501023321",
+        "description": "11KVXLPE1C300SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 134,
+        "code": "0501023721",
+        "description": "11KVXLPE3C50SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 135,
+        "code": "0501023821",
+        "description": "11KVXLPE3C95SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 136,
+        "code": "0501023921",
+        "description": "11KVXLPE3C185SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 137,
+        "code": "0501024021",
+        "description": "11KVXLPE3C240SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 138,
+        "code": "0501024121",
+        "description": "11KVXLPE3C300SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 139,
+        "code": "0501024221",
+        "description": "11KVXLPE3C400SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 140,
+        "code": "0501024421",
+        "description": "33KVXLPE1C185SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 141,
+        "code": "0501024521",
+        "description": "33KVXLPE1C300SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 142,
+        "code": "0501024621",
+        "description": "33KVXLPE1C400SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 143,
+        "code": "0501024821",
+        "description": "33KVXLPE3C95SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 144,
+        "code": "0501024921",
+        "description": "33KVXLPE3C185SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 145,
+        "code": "0501025021",
+        "description": "33KVXLPE3C240SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 146,
+        "code": "0501025121",
+        "description": "33KVXLPE3C300SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 147,
+        "code": "0501025321",
+        "description": "1.1KVXLPE4C16SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 148,
+        "code": "0501030321",
+        "description": "1.1KVABCABLE 3CX50+1CX35 SQMM",
+        "unit": "KM",
+        "price": "111944.37"
+    },
+    {
+        "id": 149,
+        "code": "0501030421",
+        "description": "1.1KVABCABLE 3CX50+1C16+1CX35 SQMM",
+        "unit": "KM",
+        "price": "139351.88"
+    },
+    {
+        "id": 150,
+        "code": "0501030521",
+        "description": "1.1KVABCABLE 3CX70+1C16+1CX50 SQMM",
+        "unit": "KM",
+        "price": "165198.10"
+    },
+    {
+        "id": 151,
+        "code": "0501030621",
+        "description": "11KVABCABLE 3CX50+1CX105 SQMM",
+        "unit": "KM",
+        "price": "402156.91"
+    },
+    {
+        "id": 152,
+        "code": "0501030721",
+        "description": "11KVABCABLE 3CX70+1CX180 SQMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 153,
+        "code": "0501030821",
+        "description": "11KVABCABLE 3CX95+1CX180 SQMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 154,
+        "code": "0501030921",
+        "description": "11KVABCABLE 3CX120+1CX180 SQMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 155,
+        "code": "0502010321",
+        "description": "COND ACSR SQURL 20SMM",
+        "unit": "KM",
+        "price": "15575.08"
+    },
+    {
+        "id": 156,
+        "code": "0502010621",
+        "description": "COND ACSR WSL 30SMM",
+        "unit": "KM",
+        "price": "25497.69"
+    },
+    {
+        "id": 157,
+        "code": "0502010921",
+        "description": "COND ACSR RBT 50SMM",
+        "unit": "KM",
+        "price": "35638.35"
+    },
+    {
+        "id": 158,
+        "code": "0502011221",
+        "description": "COND ACSR DOG100SQMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 159,
+        "code": "0502011521",
+        "description": "COND ACSR WLF 150SMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 160,
+        "code": "0502011821",
+        "description": "COND ACSR PNTH 200SMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 161,
+        "code": "0502020321",
+        "description": "COND AAA EQ WSL 34SMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 162,
+        "code": "0502020621",
+        "description": "COND AAA EQ RBT 55SMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 163,
+        "code": "0502020921",
+        "description": "COND AAA EQ DOG 100SMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 164,
+        "code": "0502021221",
+        "description": "COND AAA EQ PANTHER 250 SMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 165,
+        "code": "0502030321",
+        "description": "COND AA 25SQMM GNAT",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 166,
+        "code": "0502030621",
+        "description": "COND AA 50SQMM ANT",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 167,
+        "code": "0503010311",
+        "description": "G.I. WIRE 0.712MM.",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 168,
+        "code": "0503010411",
+        "description": "G.I. WIRE 0.91MM.",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 169,
+        "code": "0503010511",
+        "description": "G.I. WIRE 2.50MM.",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 170,
+        "code": "0503010611",
+        "description": "G.I. WIRE 3.15MM.",
+        "unit": "MT",
+        "price": "102000.00"
+    },
+    {
+        "id": 171,
+        "code": "0503010711",
+        "description": "G.I. WIRE 4MM.",
+        "unit": "MT",
+        "price": "70421.56"
+    },
+    {
+        "id": 172,
+        "code": "0503010811",
+        "description": "G.I. WIRE 5MM.",
+        "unit": "MT",
+        "price": "70619.86"
+    },
+    {
+        "id": 173,
+        "code": "0503020312",
+        "description": "AL. BINDING WIRE 5MM/6SWG",
+        "unit": "KG",
+        "price": "1.00"
+    },
+    {
+        "id": 174,
+        "code": "0503020412",
+        "description": "AL. BINDING WIRE 6MM/4SWG",
+        "unit": "KG",
+        "price": "1.00"
+    },
+    {
+        "id": 175,
+        "code": "0503020512",
+        "description": "AL. BINDING WIRE 8MM/0SWG",
+        "unit": "KG",
+        "price": "1.00"
+    },
+    {
+        "id": 176,
+        "code": "0503020612",
+        "description": "AL. BINDING WIRE 4MM/8SWG",
+        "unit": "KG",
+        "price": "1.00"
+    },
+    {
+        "id": 177,
+        "code": "0503020712",
+        "description": "AL. BINDING WIRE 3.25MM/10SWG",
+        "unit": "KG",
+        "price": "1.00"
+    },
+    {
+        "id": 178,
+        "code": "0503040622",
+        "description": "1.5MM Copper Wire",
+        "unit": "M",
+        "price": "1.00"
+    },
+    {
+        "id": 179,
+        "code": "0503050311",
+        "description": "G.I.STAY WIRE 3/2.5 MM.",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 180,
+        "code": "0503050411",
+        "description": "G I STAY WIRE 3/3.15MM",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 181,
+        "code": "0503050611",
+        "description": "G I STAY WIRE 7/2.5MM",
+        "unit": "MT",
+        "price": "77274.93"
+    },
+    {
+        "id": 182,
+        "code": "0503050711",
+        "description": "G I STAY WIRE 7/3.15MM",
+        "unit": "MT",
+        "price": "73134.35"
+    },
+    {
+        "id": 183,
+        "code": "0504010132",
+        "description": "COMPOSITE H/W FITTGS. FOR 30/50SMM COND",
+        "unit": "SET",
+        "price": "267.78"
+    },
+    {
+        "id": 184,
+        "code": "0504010232",
+        "description": "COMPOSITE H/W FITTGS. FOR 100SMM COND",
+        "unit": "SET",
+        "price": "1.00"
+    },
+    {
+        "id": 185,
+        "code": "0504010332",
+        "description": "H/W SINGLE Tension for WOLF COND",
+        "unit": "SET",
+        "price": "1.00"
+    },
+    {
+        "id": 186,
+        "code": "0504010432",
+        "description": "H/W SINGLE Suspension for WOLF COND",
+        "unit": "SET",
+        "price": "1.00"
+    },
+    {
+        "id": 187,
+        "code": "0504010532",
+        "description": "H/W SINGLE Tension for PANTHER COND",
+        "unit": "SET",
+        "price": "1.00"
+    },
+    {
+        "id": 188,
+        "code": "0504010632",
+        "description": "H/W SINGLE Suspension for PANTHER COND",
+        "unit": "SET",
+        "price": "1.00"
+    },
+    {
+        "id": 189,
+        "code": "0504033741",
+        "description": "JOINT SLV FOR DOG COND TWISTED 100SMM",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 190,
+        "code": "0504038441",
+        "description": "TEE JNT TAP OFF 11KV ABC TO DTR-1X50SMM",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 191,
+        "code": "0504038541",
+        "description": "TEE JNT TAP OFF 11KV ABC TO DTR-1X95SMM",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 192,
+        "code": "0504038641",
+        "description": "TEE JNT TAP OFF 11KV ABC TO DTR-1X120SMM",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 193,
+        "code": "0504058441",
+        "description": "11KV HS T JNT.FOR(3x50+1X105SMM)ABC",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 194,
+        "code": "0504058541",
+        "description": "11KV HS T JNT.FOR(3x70+1X180SMM)ABC",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 195,
+        "code": "0504058641",
+        "description": "11KV HS T JNT.FOR(3x95+1X180SMM)ABC",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 196,
+        "code": "0504058741",
+        "description": "11KV HS T JNT.FOR(3x120+1X180SMM)ABC",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 197,
+        "code": "0504060741",
+        "description": "LT dist. junction box",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 198,
+        "code": "0504060841",
+        "description": "LT DIST.BOX 3PH CON.WH ST.STRAP & BUCKLE",
+        "unit": "NOS",
+        "price": "7881.00"
+    },
+    {
+        "id": 199,
+        "code": "0504070341",
+        "description": "LT spacer - 1PH",
+        "unit": "NOS",
+        "price": "18.00"
+    },
+    {
+        "id": 200,
+        "code": "0504070441",
+        "description": "LT spacer - 3PH-4Wire",
+        "unit": "NOS",
+        "price": "39.00"
+    },
+    {
+        "id": 201,
+        "code": "0504070541",
+        "description": "LT spacer -3PH-5wire",
+        "unit": "NOS",
+        "price": "55.00"
+    },
+    {
+        "id": 202,
+        "code": "0504070641",
+        "description": "LT spacer -2PH-3wire",
+        "unit": "NOS",
+        "price": "28.00"
+    },
+    {
+        "id": 203,
+        "code": "0504110541",
+        "description": "G I EARTH SPIKE 1833X20MM",
+        "unit": "NOS",
+        "price": "377.25"
+    },
+    {
+        "id": 204,
+        "code": "0504110741",
+        "description": "GI hook spike 9' x 5/8\"",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 205,
+        "code": "0504111341",
+        "description": "G I PIN FOR 11KV PIN INSULATOR",
+        "unit": "NOS",
+        "price": "81.00"
+    },
+    {
+        "id": 206,
+        "code": "0504122141",
+        "description": "PORC CUTOUT FUSE 415/650V 16A RWRBL",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 207,
+        "code": "0504122241",
+        "description": "PORC CUTOUT FUSE 415/650V 32A RWRBL",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 208,
+        "code": "0504122341",
+        "description": "PORC CUTOUT FUSE 415/600V 63A RWRBL",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 209,
+        "code": "0504122441",
+        "description": "PORC CUTOUT FUSE 415/600V 100A RWRBL",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 210,
+        "code": "0504122541",
+        "description": "PROC CUT OUT FUSE 415/650V 200A RWRBL",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 211,
+        "code": "0504122641",
+        "description": "PROC CUT OUT FUSE 415/650V 300A RWRBL",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 212,
+        "code": "0504122741",
+        "description": "PROC CUT OUT FUSE 415/650V 400A RWRBL",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 213,
+        "code": "0504122841",
+        "description": "PROC CUT OUT FUSE 415/650V 500A RWRBL",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 214,
+        "code": "0504130332",
+        "description": "GI STAY SET LT(1680X16MM)",
+        "unit": "NOS",
+        "price": "590.68"
+    },
+    {
+        "id": 215,
+        "code": "0504130432",
+        "description": "GI STAY SET HT(1830X20MM)",
+        "unit": "NOS",
+        "price": "924.17"
+    },
+    {
+        "id": 216,
+        "code": "0504140641",
+        "description": "CAB END CAP FOR DIFF.SIZE AB CABLE",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 217,
+        "code": "0504153532",
+        "description": "BALL CLEVIES & SOCKET EYE FOR 70KN DISC",
+        "unit": "SET",
+        "price": "1.00"
+    },
+    {
+        "id": 218,
+        "code": "0504153641",
+        "description": "SOCKET EYE FOR 70KN DISC",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 219,
+        "code": "0504153741",
+        "description": "BALL CLEVIES FOR 70KN DISC",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 220,
+        "code": "0504155151",
+        "description": "GI STAY HOOK 9\"X3/8\"",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 221,
+        "code": "0504155241",
+        "description": "GI STAY HOOK 9\"X1/2\"",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 222,
+        "code": "0505010541",
+        "description": "P.G Clamp - A.C.S.R. Weasel(30SMM)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 223,
+        "code": "0505010641",
+        "description": "PG CLMP-WSL/RBT.( 30/50SMM)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 224,
+        "code": "0505010741",
+        "description": "PG CLMP-DOG( 100SMM)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 225,
+        "code": "0505010841",
+        "description": "CLAMP PG ACSR 50 SMM AL ALOY",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 226,
+        "code": "0505011141",
+        "description": "Clamp P.G. - A.C.S.R. Dog",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 227,
+        "code": "0505011241",
+        "description": "Al. P.G. clamp (Dog) 3 bolt type",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 228,
+        "code": "0505011541",
+        "description": "Clamp P.G. -single susp. ACSR Panther",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 229,
+        "code": "0505020341",
+        "description": "STRAIN CLAMP(B&S) for ACSRRabbit-50Sq.mm",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 230,
+        "code": "0505020441",
+        "description": "STRAIN CLAMP SNL (T&C) ACSR RBT 50SQMM",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 231,
+        "code": "0505020541",
+        "description": "STRAIN CLAMP BLT(B&S)ACSR DOG 100SQMM",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 232,
+        "code": "0505020641",
+        "description": "STRAIN CLAMP SNL (T&C) ACSR DOG100SQMM",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 233,
+        "code": "0505020741",
+        "description": "Strain clamp 6 bolts for ACSR Panther",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 234,
+        "code": "0505030441",
+        "description": "Anchoring clamp 35Sq.mm. : Messenger",
+        "unit": "NOS",
+        "price": "321.36"
+    },
+    {
+        "id": 235,
+        "code": "0505030541",
+        "description": "Anchoring clamp 50Sq.mm. : Messenger",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 236,
+        "code": "0505030641",
+        "description": "SUSPENTION CLAMP W/BRKT 35SQMM MESENGER",
+        "unit": "NOS",
+        "price": "518.09"
+    },
+    {
+        "id": 237,
+        "code": "0505030741",
+        "description": "SUSP. CLAMP W/BRA.FOR 50 SQMM MESENGER",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 238,
+        "code": "0505030841",
+        "description": "Eye hook for Ancho. & Suspn. Clamp",
+        "unit": "NOS",
+        "price": "66.95"
+    },
+    {
+        "id": 239,
+        "code": "0505031441",
+        "description": "D iron clamp 2\" x 2.5\"",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 240,
+        "code": "0505031541",
+        "description": "D iron clamp 3\" x 3.5\"",
+        "unit": "NOS",
+        "price": "21.00"
+    },
+    {
+        "id": 241,
+        "code": "0505031641",
+        "description": "Up.clamp - L.T.bkt.50x6 flat(PCC pole)",
+        "unit": "NOS",
+        "price": "128.00"
+    },
+    {
+        "id": 242,
+        "code": "0505031741",
+        "description": "Low.clamp - L.T.bkt.50x6 flat(PCC pole)",
+        "unit": "NOS",
+        "price": "128.00"
+    },
+    {
+        "id": 243,
+        "code": "0505034041",
+        "description": "DEAD END CLAMP-LT ABC(3X50+1X16+1X35SMM)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 244,
+        "code": "0505034141",
+        "description": "DEAD END CLAMP-LT ABC(3X70+1X16+1X50SMM)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 245,
+        "code": "0505034241",
+        "description": "DEAD END CLAMP-HT ABC(3X50+1X105SMM)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 246,
+        "code": "0505034341",
+        "description": "DEAD END CLAMP-HT ABC(3X70+1X180SMM)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 247,
+        "code": "0505034441",
+        "description": "DEAD END CLAMP-HT ABC(3X95+1X180SMM)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 248,
+        "code": "0505034541",
+        "description": "DEAD END CLAMP-HT ABC(3X120+1X180SMM)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 249,
+        "code": "0506010531",
+        "description": "GI shackle strap 9\" with nut & bolt",
+        "unit": "PAA",
+        "price": "24.00"
+    },
+    {
+        "id": 250,
+        "code": "0508010341",
+        "description": "11KV PIN INS-5KN",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 251,
+        "code": "0508010441",
+        "description": "11KV PIN INS-5KN WH LARGER CREEPAGE",
+        "unit": "NOS",
+        "price": "71.00"
+    },
+    {
+        "id": 252,
+        "code": "0508010541",
+        "description": "11KV PIN INS-10KN",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 253,
+        "code": "0508010741",
+        "description": "33KV PIN INS-10KN",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 254,
+        "code": "0508010841",
+        "description": "33KV PIN INS-10KN WH LARGER CREEPAGE",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 255,
+        "code": "0508011041",
+        "description": "33KVPOLYMER COMP. WH FTTG PIN INSL 10KN",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 256,
+        "code": "0508011141",
+        "description": "11KVPOLYMER COMP. WH FTTG PIN INSL 5KN",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 257,
+        "code": "0508030341",
+        "description": "11 KV DISC INS 45KN",
+        "unit": "NOS",
+        "price": "309.79"
+    },
+    {
+        "id": 258,
+        "code": "0508030441",
+        "description": "11 KV DISC INS 70KN",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 259,
+        "code": "0508040341",
+        "description": "Porcelain Shackle insulator 2\" x 21/2\"",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 260,
+        "code": "0508040441",
+        "description": "Porcelain Shackle insulator 3\" x 31/2\"",
+        "unit": "NOS",
+        "price": "13.00"
+    },
+    {
+        "id": 261,
+        "code": "0508040541",
+        "description": "Reel insulator (small)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 262,
+        "code": "0508040641",
+        "description": "CI reel insulator",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 263,
+        "code": "0508040741",
+        "description": "Porcelain guy insulator LT",
+        "unit": "NOS",
+        "price": "12.00"
+    },
+    {
+        "id": 264,
+        "code": "0508040841",
+        "description": "Porcelain guy insulator HT",
+        "unit": "NOS",
+        "price": "30.00"
+    },
+    {
+        "id": 265,
+        "code": "0508040941",
+        "description": "Suspension insulator (70KN)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 266,
+        "code": "0508041041",
+        "description": "Reel insulator (big)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 267,
+        "code": "0910010141",
+        "description": "Danger Plate",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 268,
+        "code": "0910010241",
+        "description": "Caution Board - 11KV",
+        "unit": "NOS",
+        "price": "124.00"
+    },
+    {
+        "id": 269,
+        "code": "0912011041",
+        "description": "Junction Box",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 270,
+        "code": "0912011441",
+        "description": "Turn Buckle 18 x 5/8\"",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 271,
+        "code": "0910012141",
+        "description": "Caution Board - 33KV",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 272,
+        "code": "0912013012",
+        "description": "BRASS EARTH TERMINAL",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 273,
+        "code": "0912013341",
+        "description": "TURN Buckle 18 x 3/4\"",
+        "unit": "NOS",
+        "price": "134.00"
+    },
+    {
+        "id": 274,
+        "code": "0506010431",
+        "description": "GI Shackle strap 6\" & nut, bolt & washer",
+        "unit": "PAA",
+        "price": "1.00"
+    },
+    {
+        "id": 275,
+        "code": "0501040621",
+        "description": "CuCONT.CAB1.1KV4C4SMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 276,
+        "code": "0501040721",
+        "description": "CuCONT.CAB1.1KV4C2.5SMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 277,
+        "code": "0501040821",
+        "description": "CuCONT.CAB1.1KV5C2.5SMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 278,
+        "code": "0501040921",
+        "description": "CuCONT.CAB1.1KV7C2.5SMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 279,
+        "code": "0501041021",
+        "description": "CuCONT.CAB1.1KV8C2.5SMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 280,
+        "code": "0501041121",
+        "description": "CuCONT.CAB1.1KV12C2.5SMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 281,
+        "code": "0501041221",
+        "description": "CuCONT.CAB1.1KV14C2.5SMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 282,
+        "code": "0501041321",
+        "description": "CuCONT.CAB1.1KV16C2.5SMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 283,
+        "code": "0113010341",
+        "description": "GI FAB. STRUCT FOR 33 KV PT",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 284,
+        "code": "0113010541",
+        "description": "GI Sub Stn. Struct BOX (ASSORTED)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 285,
+        "code": "0113011941",
+        "description": "GI STRUCT FOR 33KV GANTRY WH LA",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 286,
+        "code": "0113012141",
+        "description": "GI FAB. STRUCT FOR 33 KV ISL(L/L)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 287,
+        "code": "0113012241",
+        "description": "GI FAB. STRUCT FOR 33 KV ISL(H/L)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 288,
+        "code": "0113012341",
+        "description": "GI FAB. STRUCT FOR 33 KV CT",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 289,
+        "code": "0113012441",
+        "description": "GI FAB. STRUCT FOR 33 KV LA",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 290,
+        "code": "0113012541",
+        "description": "GI FAB. STRUCT FOR CABLE",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 291,
+        "code": "0113012641",
+        "description": "GI FAB.STRUCT -33KVBUS SUPPORT(L/L)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 292,
+        "code": "0113012741",
+        "description": "GI FAB. STRUCT-33KVBUS SUPPORT(H/L)",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 293,
+        "code": "0504060941",
+        "description": "LT dist. junction box",
+        "unit": "NOS",
+        "price": "2715.08"
+    },
+    {
+        "id": 294,
+        "code": "0504027141",
+        "description": "Ins. pierce Con.(ABC) 35-50Sq.mm.",
+        "unit": "NOS",
+        "price": "112.27"
+    },
+    {
+        "id": 295,
+        "code": "0110020711",
+        "description": "RAIL POLE 11-13M (52KG)",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 296,
+        "code": "0194020511",
+        "description": "UH-RAIL POLE 10-13M (52KG)",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 297,
+        "code": "0508030541",
+        "description": "11 KVA POLYMER COMP. WH FTTG DISC INSL 45 KN",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 298,
+        "code": "0391032541",
+        "description": "UH-DTR 63 KVA 11/0.433 KV 3 PH O/D",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 299,
+        "code": "0504026941",
+        "description": "INS . PIERCE CON ABC 35-50 SQMM",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 300,
+        "code": "0301020541",
+        "description": "DTR 10KVA 11/0.433KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "29921.00"
+    },
+    {
+        "id": 301,
+        "code": "0504028441",
+        "description": "CABLE TIE",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 302,
+        "code": "1000",
+        "description": "NO MATERIALS",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 303,
+        "code": "2000",
+        "description": "MATERIALS SUPPLY CCC",
+        "unit": "NOS",
+        "price": "50.00"
+    },
+    {
+        "id": 304,
+        "code": "0301123341",
+        "description": "SILICAGAL BREATHER WH CONTAINER 100 KVA",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 305,
+        "code": "0191011011",
+        "description": "UH-M.S. ANGLE 50 X 50 X 6MM.",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 306,
+        "code": "0191011311",
+        "description": "UH-M.S. ANGLE 65 X 65 X 6MM.",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 307,
+        "code": "0192010611",
+        "description": "UH-M.S. CHANNEL 75 X 40MM",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 308,
+        "code": "0193011211",
+        "description": "UH-M.S. FLAT 50 X 6MM",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 309,
+        "code": "0193011511",
+        "description": "UH-M.S. FLAT 65 X 6MM",
+        "unit": "MT",
+        "price": "1.00"
+    },
+    {
+        "id": 310,
+        "code": "0194030141",
+        "description": "UH-PCC POLE 8M",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 311,
+        "code": "0194030241",
+        "description": "UH-PCC POLE 9M",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 313,
+        "code": "0391031541",
+        "description": "UH-DTR 25KVA 11/0.433KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 314,
+        "code": "0391033241",
+        "description": "UH-DTR 100KVA 6/0.433KV 3PH O/D",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 315,
+        "code": "0396020532",
+        "description": "UH-ISL 11KV 200A TPGO",
+        "unit": "SET",
+        "price": "1.00"
+    },
+    {
+        "id": 316,
+        "code": "0592010621",
+        "description": "UH-COND ACSR WSL 30SMM",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 317,
+        "code": "0592030321",
+        "description": "UH-COND AA 25SQMM GNAT",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 318,
+        "code": "0593010341",
+        "description": "UH-11KV PIN INS-5KN",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 319,
+        "code": "0593050341",
+        "description": "UH-11 KV DISC INS 45KN",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 320,
+        "code": "0593110541",
+        "description": "UH-HT GUY INS",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 321,
+        "code": "0593110641",
+        "description": "UH-SHACKLE INS 3 X3.5",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 322,
+        "code": "0593110841",
+        "description": "UH-LT SPACER-3 PH-4 WIRE",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 323,
+        "code": "0594030341",
+        "description": "UH-SHACKLE STRAP",
+        "unit": "PAA",
+        "price": "1.00"
+    },
+    {
+        "id": 324,
+        "code": "0594030432",
+        "description": "UH-COMP H/W FITTGS FOR 30/50 SMM COND",
+        "unit": "SET",
+        "price": "1.00"
+    },
+    {
+        "id": 325,
+        "code": "0594030741",
+        "description": "UH-GI TURN BUCKLE",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 326,
+        "code": "0594030841",
+        "description": "UH-GI PIN 11 KV",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 327,
+        "code": "0597011741",
+        "description": "UH- D-IRON CLAMP 3'' X 3.5''",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 328,
+        "code": "0391030541",
+        "description": "UH-DTR 10KVA 11/0.433KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 329,
+        "code": "0195021741",
+        "description": "UH-MS BRACKET-4WIRE",
+        "unit": "NOS",
+        "price": "416.93"
+    },
+    {
+        "id": 330,
+        "code": "0597010141",
+        "description": "UH-CLAMP",
+        "unit": "NOS",
+        "price": "62.70"
+    },
+    {
+        "id": 331,
+        "code": "505034941",
+        "description": "Clamp for 8 m PCC pole",
+        "unit": "NOS",
+        "price": "487.93"
+    },
+    {
+        "id": 332,
+        "code": "1001",
+        "description": "REPLACE OF 25 KVA DTR",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 333,
+        "code": "1002",
+        "description": "REPLACE OF 63 KVA DTR",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 334,
+        "code": "019502174",
+        "description": "UH MS BRACKET4 W",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 335,
+        "code": "0504026841",
+        "description": "Ins. pierce Con.(ABC) - 16Sq.mm.",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 336,
+        "code": "0504026741",
+        "description": "INS.PIERCE CON.(ABC)50-70 SQ.MM",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 337,
+        "code": "0504053241",
+        "description": "11KV O/D HS Ter. Jt. FOR (1X95SQMM) ABC",
+        "unit": "NOS",
+        "price": "2763.87"
+    },
+    {
+        "id": 338,
+        "code": "0505030341",
+        "description": "Anchoring Clamp 180 Sqmm Messenger",
+        "unit": "NOS",
+        "price": "360.22"
+    },
+    {
+        "id": 339,
+        "code": "0505030241",
+        "description": "SUSPENTION CLAMP W/BRKT 180SQMM MESENGER",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 340,
+        "code": "301018341",
+        "description": "DTR  100KVA 11/0.433KV, 3PH O/D WH SLNO",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 341,
+        "code": "0301018241",
+        "description": "DTR 63KVA 11/0.433KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 342,
+        "code": "301018241",
+        "description": "DTR 63KVA 11/0.433KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 343,
+        "code": "1",
+        "description": "THIS BILL SEND TO BABU DA",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 344,
+        "code": "0501022321",
+        "description": "1.1KVXLPE4C50SMM CABLE",
+        "unit": "KM",
+        "price": "1.00"
+    },
+    {
+        "id": 345,
+        "code": "0301018341",
+        "description": "DTR 100KVA 11/0.433KV 3PH O/D",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 346,
+        "code": "0301018141",
+        "description": "DTR 25KVA 11/0.433KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 347,
+        "code": "0597011541",
+        "description": "UH-CLAMP FOR 8M PCC POLE",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 348,
+        "code": "0990020412",
+        "description": "D-IRON MATERIAL ASSORTED",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 349,
+        "code": "990020412",
+        "description": "D-IRON MATERIAL ASSORTED",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 350,
+        "code": "0504410641",
+        "description": "CAB & CAP FOR DIFF.SIZE AB CABLE",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 351,
+        "code": "0504151441",
+        "description": "CAB TIE WH ADJ .LOOKING  ARRANGEMENT",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 352,
+        "code": "0301019141",
+        "description": "DTR  315KVA 11/0.433KV, 3PH O/D",
+        "unit": "NOS",
+        "price": "1.00"
+    }
+]

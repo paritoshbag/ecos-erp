@@ -1,0 +1,76 @@
+<?php
+
+namespace App\Http\Middleware;
+
+use App\Models\Organization;
+use Illuminate\Http\Request;
+use Inertia\Inertia;
+use Inertia\Middleware;
+
+class HandleInertiaRequests extends Middleware
+{
+    /**
+     * The root template that's loaded on the first page visit.
+     *
+     * @see https://inertiajs.com/server-side-setup#root-template
+     *
+     * @var string
+     */
+    protected $rootView = 'app';
+
+    /**
+     * Determines the current asset version.
+     *
+     * @see https://inertiajs.com/asset-versioning
+     */
+    public function version(Request $request): ?string
+    {
+        return parent::version($request);
+    }
+
+    /**
+     * Define the props that are shared by default.
+     *
+     * @see https://inertiajs.com/shared-data
+     *
+     * @return array<string, mixed>
+     */
+    public function share(Request $request): array
+    {
+        return [
+            ...parent::share($request),
+            'name' => config('app.name'),
+            'app' => [
+                'name' => config('app.name'),
+                'version' => config('app.version'),
+                'environment' => config('app.env'),
+            ],
+            'auth' => [
+                'user' => $request->user(),
+            ],
+            'organization' => Inertia::always(fn (): ?array => $this->sharedOrganization($request)),
+            'sidebarOpen' => ! $request->hasCookie('sidebar_state') || $request->cookie('sidebar_state') === 'true',
+        ];
+    }
+
+    /**
+     * @return array{
+     *     company_name: string|null,
+     *     vendor_code: string|null,
+     *     gst: string|null,
+     *     pan: string|null,
+     *     company_type: string|null,
+     *     address: string|null,
+     *     email: string|null,
+     *     mobile: string|null
+     * }|null
+     */
+    private function sharedOrganization(Request $request): ?array
+    {
+        if ($request->user() === null) {
+            return null;
+        }
+
+        return Organization::existing()?->toChromeIdentity();
+    }
+}

@@ -1,0 +1,2012 @@
+[
+    {
+        "id": 1,
+        "description": "SURVEY OF HT OH LINE",
+        "unit": "KM",
+        "price": "2761.00"
+    },
+    {
+        "id": 2,
+        "description": "SURVEY OF  L&MV LINE",
+        "unit": "KM",
+        "price": "1714.00"
+    },
+    {
+        "id": 3,
+        "description": "E/O RAIL S-POLE (12.81 M) W/O FITTINGS",
+        "unit": "NOS",
+        "price": "4351.00"
+    },
+    {
+        "id": 4,
+        "description": "E/O PCC S-POLE (9 M) W/O FITTINGS",
+        "unit": "NOS",
+        "price": "2281.00"
+    },
+    {
+        "id": 5,
+        "description": "E/O PCC S-POLE (8 M) W/O FITTINGS",
+        "unit": "NOS",
+        "price": "1501.00"
+    },
+    {
+        "id": 6,
+        "description": "E/O ST S-POLE (9 M TO 11 M) W/O FITTINGS",
+        "unit": "NOS",
+        "price": "2333.00"
+    },
+    {
+        "id": 7,
+        "description": "E/O ST S-POLE (13 M) W/O FITTINGS",
+        "unit": "NOS",
+        "price": "2860.00"
+    },
+    {
+        "id": 8,
+        "description": "E/O RAIL S-POLE (12.81 M) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "4657.00"
+    },
+    {
+        "id": 9,
+        "description": "E/O PCC S-POLE (9 M) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "2620.00"
+    },
+    {
+        "id": 10,
+        "description": "E/O PCC S-POLE (8 M) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "1680.00"
+    },
+    {
+        "id": 11,
+        "description": "E/O ST S-POLE (9 M TO 11 M) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "2445.00"
+    },
+    {
+        "id": 12,
+        "description": "E/O ST S-POLE (13 M) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "3221.00"
+    },
+    {
+        "id": 13,
+        "description": "E/O DP RAIL POLE (12.81 M) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "13969.00"
+    },
+    {
+        "id": 14,
+        "description": "E/O DP PCC POLE (9 M) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "9438.00"
+    },
+    {
+        "id": 15,
+        "description": "E/O DP PCC POLE (8 M) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "6170.00"
+    },
+    {
+        "id": 16,
+        "description": "E/O DP ST POLE (9 M ) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "6211.00"
+    },
+    {
+        "id": 17,
+        "description": "E/O DP ST POLE (11 M) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "6238.00"
+    },
+    {
+        "id": 18,
+        "description": "E/O TP RAIL POLE (12.81 M) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "23364.00"
+    },
+    {
+        "id": 19,
+        "description": "E/O TP PCC POLE (9 M) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "16274.00"
+    },
+    {
+        "id": 20,
+        "description": "E/O TP PCC POLE (8 M) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "12044.00"
+    },
+    {
+        "id": 21,
+        "description": "E/O TP ST POLE (9 M ) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "17350.00"
+    },
+    {
+        "id": 22,
+        "description": "E/O TP ST POLE (11 M) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "17390.00"
+    },
+    {
+        "id": 23,
+        "description": "E/O 4P RAIL POLE (12.81 M) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "35717.00"
+    },
+    {
+        "id": 24,
+        "description": "E/O 4P PCC POLE (9 M) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "27829.68"
+    },
+    {
+        "id": 25,
+        "description": "E/O 4P PCC POLE (8 M) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "15312.00"
+    },
+    {
+        "id": 26,
+        "description": "E/O 4P ST POLE (9 M ) WITH FITTINGS",
+        "unit": "NOS",
+        "price": "26960.00"
+    },
+    {
+        "id": 27,
+        "description": "EXTN. OF SINGLE PCC POLE",
+        "unit": "NOS",
+        "price": "1506.00"
+    },
+    {
+        "id": 28,
+        "description": "EXTN. OF SINGLE RAIL POLE",
+        "unit": "NOS",
+        "price": "1663.00"
+    },
+    {
+        "id": 29,
+        "description": "E/O S/S STRUCTURE ON RAIL POLE D.P",
+        "unit": "NOS",
+        "price": "16112.00"
+    },
+    {
+        "id": 30,
+        "description": "E/O S/S STRUCTURE ON PCC POLE D.P (9 M)",
+        "unit": "NOS",
+        "price": "13169.00"
+    },
+    {
+        "id": 31,
+        "description": "E/O S/S STRUCTURE ON PCC POLE D.P (8 M)",
+        "unit": "NOS",
+        "price": "9875.00"
+    },
+    {
+        "id": 32,
+        "description": "E/O S/S STRUCTURE ON PCC POLE 4-P (8 M)",
+        "unit": "NOS",
+        "price": "19872.00"
+    },
+    {
+        "id": 33,
+        "description": "STR. & SAG. WITH ACSR 150 SQMM 3- W",
+        "unit": "KM",
+        "price": "19208.00"
+    },
+    {
+        "id": 34,
+        "description": "STR. & SAG. WITH ACSR 150 SQMM 2- W",
+        "unit": "KM",
+        "price": "14154.00"
+    },
+    {
+        "id": 35,
+        "description": "STR. & SAG. WITH ACSR 150 SQMM 1- W",
+        "unit": "KM",
+        "price": "9246.00"
+    },
+    {
+        "id": 36,
+        "description": "STR. & SAG. WITH ACSR 100 SQMM 3- W",
+        "unit": "KM",
+        "price": "16544.00"
+    },
+    {
+        "id": 37,
+        "description": "STR. & SAG. WITH ACSR 100 SQMM 2- W",
+        "unit": "KM",
+        "price": "12330.00"
+    },
+    {
+        "id": 38,
+        "description": "STR. & SAG. WITH ACSR 100 SQMM 1- W",
+        "unit": "KM",
+        "price": "8169.00"
+    },
+    {
+        "id": 39,
+        "description": "STR. & SAG. WITH ACSR 50 SQMM 4- W",
+        "unit": "KM",
+        "price": "9715.00"
+    },
+    {
+        "id": 40,
+        "description": "STR. & SAG. WITH ACSR 50 SQMM 3- W",
+        "unit": "KM",
+        "price": "8289.00"
+    },
+    {
+        "id": 41,
+        "description": "STR. & SAG. WITH ACSR 50 SQMM 2- W",
+        "unit": "KM",
+        "price": "6184.00"
+    },
+    {
+        "id": 42,
+        "description": "STR. & SAG. WITH ACSR 50 SQMM 1- W",
+        "unit": "KM",
+        "price": "2978.00"
+    },
+    {
+        "id": 43,
+        "description": "STR. & SAG. WITH ACSR 30 SQMM 4- W",
+        "unit": "KM",
+        "price": "8821.00"
+    },
+    {
+        "id": 44,
+        "description": "STR. & SAG. WITH ACSR 30 SQMM 3- W",
+        "unit": "KM",
+        "price": "7899.00"
+    },
+    {
+        "id": 45,
+        "description": "STR. & SAG. WITH ACSR 30 SQMM 2- W",
+        "unit": "KM",
+        "price": "5322.00"
+    },
+    {
+        "id": 46,
+        "description": "STR. & SAG. WITH ACSR 30 SQMM 1- W",
+        "unit": "KM",
+        "price": "2845.00"
+    },
+    {
+        "id": 47,
+        "description": "STR. & SAG. WITH ACSR 20 SQMM 4- W",
+        "unit": "KM",
+        "price": "8432.00"
+    },
+    {
+        "id": 48,
+        "description": "STR. & SAG. WITH ACSR 20 SQMM 3- W",
+        "unit": "KM",
+        "price": "7043.00"
+    },
+    {
+        "id": 49,
+        "description": "STR. & SAG. WITH ACSR 20 SQMM 2- W",
+        "unit": "KM",
+        "price": "4873.00"
+    },
+    {
+        "id": 50,
+        "description": "STR. & SAG. WITH ACSR 20 SQMM 1- W",
+        "unit": "KM",
+        "price": "2894.00"
+    },
+    {
+        "id": 51,
+        "description": "STR. & SAG. WITH AAC 50 SQMM 4- W",
+        "unit": "KM",
+        "price": "7972.00"
+    },
+    {
+        "id": 52,
+        "description": "STR. & SAG. WITH AAC 50 SQMM 3- W",
+        "unit": "KM",
+        "price": "6882.00"
+    },
+    {
+        "id": 53,
+        "description": "STR. & SAG. WITH AAC 50 SQMM 2- W",
+        "unit": "KM",
+        "price": "4864.00"
+    },
+    {
+        "id": 54,
+        "description": "STR. & SAG. WITH AAC 50 SQMM 1- W",
+        "unit": "KM",
+        "price": "2815.00"
+    },
+    {
+        "id": 55,
+        "description": "STR. & SAG. WITH AAC 25 SQMM 4- W",
+        "unit": "KM",
+        "price": "7136.00"
+    },
+    {
+        "id": 56,
+        "description": "STR. & SAG. WITH AAC 25 SQMM 3- W",
+        "unit": "KM",
+        "price": "6301.00"
+    },
+    {
+        "id": 57,
+        "description": "STR. & SAG. WITH AAC 25 SQMM 2- W",
+        "unit": "KM",
+        "price": "4412.00"
+    },
+    {
+        "id": 58,
+        "description": "STR. & SAG. WITH AAC 25 SQMM 1- W",
+        "unit": "KM",
+        "price": "2435.00"
+    },
+    {
+        "id": 59,
+        "description": "STR. & SAG. WITH G.I. W 1- W",
+        "unit": "KM",
+        "price": "1592.00"
+    },
+    {
+        "id": 60,
+        "description": "E/O DIST. TR.  10/16 KVA, 11/ 0.43 KV",
+        "unit": "NOS",
+        "price": "1885.00"
+    },
+    {
+        "id": 61,
+        "description": "E/O DIST. TR.  25 KVA, 11/ 0.43 KV",
+        "unit": "NOS",
+        "price": "1925.00"
+    },
+    {
+        "id": 62,
+        "description": "E/O DIST. TR.  63 KVA, 11/ 0.43 KV",
+        "unit": "NOS",
+        "price": "2711.00"
+    },
+    {
+        "id": 63,
+        "description": "E/O DIST. TR.  100 KVA, 11/ 0.43 KV",
+        "unit": "NOS",
+        "price": "3214.00"
+    },
+    {
+        "id": 64,
+        "description": "E/O DIST. TR.  315 KVA, 11/ 0.43 KV",
+        "unit": "NOS",
+        "price": "7248.00"
+    },
+    {
+        "id": 65,
+        "description": "FAB. & F/O C.G. BRACKET ON S.P.",
+        "unit": "NOS",
+        "price": "237.00"
+    },
+    {
+        "id": 66,
+        "description": "FAB. & F/O C.G. BRACKET ON D.P.",
+        "unit": "NOS",
+        "price": "369.00"
+    },
+    {
+        "id": 67,
+        "description": "FIX. LEAD WIRE (2-W) UPTO 30 MTR.",
+        "unit": "NOS",
+        "price": "256.00"
+    },
+    {
+        "id": 68,
+        "description": "FIX. LEAD WIRE (4-W) UPTO 30 MTR.",
+        "unit": "NOS",
+        "price": "357.00"
+    },
+    {
+        "id": 69,
+        "description": "FIX. LEAD WIRE (2-W) 30 M. UPTO 60 MTR.",
+        "unit": "NOS",
+        "price": "312.00"
+    },
+    {
+        "id": 70,
+        "description": "FIX. LEAD WIRE (4-W) 30 M. UPTO 60 MTR.",
+        "unit": "NOS",
+        "price": "469.00"
+    },
+    {
+        "id": 71,
+        "description": "FIX. LEAD WIRE (2-W) 60 M. UPTO 100 MTR.",
+        "unit": "NOS",
+        "price": "506.00"
+    },
+    {
+        "id": 72,
+        "description": "FIX. LEAD WIRE (4-W) 60 M. UPTO 100 MTR.",
+        "unit": "NOS",
+        "price": "746.00"
+    },
+    {
+        "id": 73,
+        "description": "MAKING & F/O CROSS LACING",
+        "unit": "NOS",
+        "price": "15.00"
+    },
+    {
+        "id": 74,
+        "description": "F/O 11 KV PIN INSULATOR WITH PIN",
+        "unit": "NOS",
+        "price": "63.00"
+    },
+    {
+        "id": 75,
+        "description": "F/O 33 KV PIN INSULATOR WITH PIN",
+        "unit": "NOS",
+        "price": "72.00"
+    },
+    {
+        "id": 76,
+        "description": "F/O 11 KV DISC INSU. WITH FITTINGS",
+        "unit": "SET",
+        "price": "65.00"
+    },
+    {
+        "id": 77,
+        "description": "F/O 33 KV DISC INSU. WITH FITTINGS",
+        "unit": "SET",
+        "price": "107.00"
+    },
+    {
+        "id": 78,
+        "description": "F/O L.T. SHACKLE INSULATOR",
+        "unit": "NOS",
+        "price": "52.00"
+    },
+    {
+        "id": 79,
+        "description": "F/O L.T. SHACKLE INSU. W/O NUT & BOLT",
+        "unit": "NOS",
+        "price": "37.00"
+    },
+    {
+        "id": 80,
+        "description": "F/O L.T. PIN WITH INSULATOR",
+        "unit": "NOS",
+        "price": "37.00"
+    },
+    {
+        "id": 81,
+        "description": "F/O C.I. REEL",
+        "unit": "NOS",
+        "price": "46.00"
+    },
+    {
+        "id": 82,
+        "description": "E/O  STAY SET COMPLETE (HT)",
+        "unit": "SET",
+        "price": "641.00"
+    },
+    {
+        "id": 83,
+        "description": "E/O  STAY SET COMPLETE (LT)",
+        "unit": "SET",
+        "price": "555.00"
+    },
+    {
+        "id": 84,
+        "description": "EARTHING COMPLETE",
+        "unit": "NOS",
+        "price": "313.00"
+    },
+    {
+        "id": 85,
+        "description": "FIX. OF ANTI-CLIM. DEVICE W. BARBED WIRE",
+        "unit": "NOS",
+        "price": "150.00"
+    },
+    {
+        "id": 86,
+        "description": "F/O CAUTION BOARD",
+        "unit": "NOS",
+        "price": "24.00"
+    },
+    {
+        "id": 87,
+        "description": "NUMBERING OF POLES",
+        "unit": "NOS",
+        "price": "21.00"
+    },
+    {
+        "id": 88,
+        "description": "F/O SEFTY DEVICE",
+        "unit": "NOS",
+        "price": "35.00"
+    },
+    {
+        "id": 89,
+        "description": "F/O A.I. BRACKET",
+        "unit": "NOS",
+        "price": "596.00"
+    },
+    {
+        "id": 90,
+        "description": "F/O 11 KV TPGO ISO. ON SUB-STN.",
+        "unit": "SET",
+        "price": "1193.00"
+    },
+    {
+        "id": 91,
+        "description": "F/O 11 KV TPGO ISO. ON D.P.  WITH FITT.",
+        "unit": "SET",
+        "price": "3165.00"
+    },
+    {
+        "id": 92,
+        "description": "F/O II KV ISO. LINK UNIT ON STRUC.",
+        "unit": "SET",
+        "price": "986.00"
+    },
+    {
+        "id": 93,
+        "description": "F/O 11 KV L A ON STRUCTURE",
+        "unit": "SET",
+        "price": "339.00"
+    },
+    {
+        "id": 94,
+        "description": "F/O BOX BRACKET",
+        "unit": "NOS",
+        "price": "1433.00"
+    },
+    {
+        "id": 95,
+        "description": "F/O MAIN SWITCH SINGLE CKT",
+        "unit": "NOS",
+        "price": "1057.00"
+    },
+    {
+        "id": 96,
+        "description": "F/O MAIN SWITCH DOUBLE CKT",
+        "unit": "NOS",
+        "price": "1606.00"
+    },
+    {
+        "id": 97,
+        "description": "F/O L.T. KIOSK SINGLE CKT",
+        "unit": "NOS",
+        "price": "2155.00"
+    },
+    {
+        "id": 98,
+        "description": "F/O L.T. KIOSK DOUBLE CKT",
+        "unit": "NOS",
+        "price": "3012.00"
+    },
+    {
+        "id": 99,
+        "description": "F/O TEE-OFF BRACKET ON SINGLE POLE",
+        "unit": "NOS",
+        "price": "1495.00"
+    },
+    {
+        "id": 100,
+        "description": "F/O TEE-OFF BRACKET ON DOUBLE POLE",
+        "unit": "NOS",
+        "price": "1498.00"
+    },
+    {
+        "id": 101,
+        "description": "RAIL POLE CUTTING",
+        "unit": "NOS",
+        "price": "394.00"
+    },
+    {
+        "id": 102,
+        "description": "MAKING HOLE ON RAIL POLE",
+        "unit": "NOS",
+        "price": "110.00"
+    },
+    {
+        "id": 103,
+        "description": "F/O LT SPACER 1-PH UNIT",
+        "unit": "NOS",
+        "price": "37.00"
+    },
+    {
+        "id": 104,
+        "description": "F/O LT SPACER 3-PH UNIT",
+        "unit": "NOS",
+        "price": "56.00"
+    },
+    {
+        "id": 105,
+        "description": "F/O M.S. HOOD ONLY",
+        "unit": "NOS",
+        "price": "519.00"
+    },
+    {
+        "id": 106,
+        "description": "DISMAN. OF EXIS. 10 KVA DTR AND RETURN",
+        "unit": "NOS",
+        "price": "918.00"
+    },
+    {
+        "id": 107,
+        "description": "DISMAN. OF EXIS. 16 KVA DTR AND RETURN",
+        "unit": "NOS",
+        "price": "918.00"
+    },
+    {
+        "id": 108,
+        "description": "DISMAN. OF EXIS. 25 KVA DTR AND RETURN",
+        "unit": "NOS",
+        "price": "918.00"
+    },
+    {
+        "id": 109,
+        "description": "DISMAN. OF EXIS. 63 KVA DTR AND RETURN",
+        "unit": "NOS",
+        "price": "1203.00"
+    },
+    {
+        "id": 110,
+        "description": "DISMAN. OF EXIS. 100 KVA DTR AND RETURN",
+        "unit": "NOS",
+        "price": "1489.00"
+    },
+    {
+        "id": 111,
+        "description": "DISMAN. OF EXIS. 250 KVA DTR AND RETURN",
+        "unit": "NOS",
+        "price": "2978.00"
+    },
+    {
+        "id": 112,
+        "description": "DISMAN. OF EXIS. 315 KVA DTR AND RETURN",
+        "unit": "NOS",
+        "price": "2978.00"
+    },
+    {
+        "id": 113,
+        "description": "DISM. OF EX. 10 KVA DTR & INST. OF NEW ONE",
+        "unit": "NOS",
+        "price": "1846.00"
+    },
+    {
+        "id": 114,
+        "description": "DISM. OF EX. 16 KVA DTR & INST. OF NEW ONE",
+        "unit": "NOS",
+        "price": "1846.00"
+    },
+    {
+        "id": 115,
+        "description": "DISM. OF EX. 25 KVA DTR & INST. OF NEW ONE",
+        "unit": "NOS",
+        "price": "2141.00"
+    },
+    {
+        "id": 116,
+        "description": "DISM. OF EX. 63 KVA DTR & INST. OF NEW ONE",
+        "unit": "NOS",
+        "price": "2808.00"
+    },
+    {
+        "id": 117,
+        "description": "DISM. OF EX. 100 KVA DTR & INST. OF NEW ONE",
+        "unit": "NOS",
+        "price": "3141.00"
+    },
+    {
+        "id": 118,
+        "description": "DISM. OF EX. 250 KVA DTR & INST. OF NEW ONE",
+        "unit": "NOS",
+        "price": "6546.00"
+    },
+    {
+        "id": 119,
+        "description": "DISM. OF EX. 315 KVA DTR & INST. OF NEW ONE",
+        "unit": "NOS",
+        "price": "6546.00"
+    },
+    {
+        "id": 120,
+        "description": "DIS. OF 10 KVA DTR & INST. OF NEW 25 KVA DTR",
+        "unit": "NOS",
+        "price": "2205.00"
+    },
+    {
+        "id": 121,
+        "description": "DIS. OF 16 KVA DTR & INST. OF NEW 25 KVA DTR",
+        "unit": "NOS",
+        "price": "2205.00"
+    },
+    {
+        "id": 122,
+        "description": "DIS. OF 25 KVA DTR & INST. OF NEW 63 KVA DTR",
+        "unit": "NOS",
+        "price": "2665.00"
+    },
+    {
+        "id": 123,
+        "description": "DIS. OF 63 KVA DTR & INST. OF NEW 100 KVA DTR",
+        "unit": "NOS",
+        "price": "2998.00"
+    },
+    {
+        "id": 124,
+        "description": "DIS. OF 100 KVA DTR & INST. OF NEW 250 KVA DTR",
+        "unit": "NOS",
+        "price": "5087.00"
+    },
+    {
+        "id": 125,
+        "description": "DIS. OF 100 KVA DTR & INST. OF NEW 315 KVA DTR",
+        "unit": "NOS",
+        "price": "5087.00"
+    },
+    {
+        "id": 126,
+        "description": "STRAIGHTENING OF PCC POLES ( 8 M)",
+        "unit": "NOS",
+        "price": "292.00"
+    },
+    {
+        "id": 127,
+        "description": "STRAIGHTENING OF PCC POLES ( 9 M)",
+        "unit": "NOS",
+        "price": "408.00"
+    },
+    {
+        "id": 128,
+        "description": "STRAIGHTENING OF ST POLES ( 8/11/13 M)",
+        "unit": "NOS",
+        "price": "333.00"
+    },
+    {
+        "id": 129,
+        "description": "STRAIGHTENING OF RAIL POLES ( 12.81 M)",
+        "unit": "NOS",
+        "price": "483.00"
+    },
+    {
+        "id": 130,
+        "description": "STRAIGHTENING OF WOOD POLES ( 8 M)",
+        "unit": "NOS",
+        "price": "292.00"
+    },
+    {
+        "id": 131,
+        "description": "DIS. & RE-FIX. V-BR/TOP ADP OR EQUI SUP 11 KV",
+        "unit": "NOS",
+        "price": "150.00"
+    },
+    {
+        "id": 132,
+        "description": "DIS. & RE-FIX. V-BR/TOP ADP OR EQUI SUP 33 KV",
+        "unit": "NOS",
+        "price": "193.00"
+    },
+    {
+        "id": 133,
+        "description": "FIX.OF V-BR/TOP ADP OR EQUI SUP 8M PCC W/O PAINT",
+        "unit": "NOS",
+        "price": "107.00"
+    },
+    {
+        "id": 134,
+        "description": "FIX.OF V-BR/TOP ADP OR EQUI SUP 8M PCC PAINT",
+        "unit": "NOS",
+        "price": "159.00"
+    },
+    {
+        "id": 135,
+        "description": "FIX.OF V-BR/TOP ADP OR EQUI SUP RAIL POLE",
+        "unit": "NOS",
+        "price": "194.00"
+    },
+    {
+        "id": 136,
+        "description": "REFIXING OF 11 KV PIN INSULATOR",
+        "unit": "NOS",
+        "price": "53.00"
+    },
+    {
+        "id": 137,
+        "description": "REFIXING OF 33 KV PIN INSULATOR",
+        "unit": "NOS",
+        "price": "61.00"
+    },
+    {
+        "id": 138,
+        "description": "REFIXING OF 11 KV DISC INSULATOR",
+        "unit": "SET",
+        "price": "53.00"
+    },
+    {
+        "id": 139,
+        "description": "REFIXING OF 33 KV DISC INSULATOR",
+        "unit": "SET",
+        "price": "72.00"
+    },
+    {
+        "id": 140,
+        "description": "REFIXING OF SHACKLE INSULATOR",
+        "unit": "NOS",
+        "price": "38.00"
+    },
+    {
+        "id": 141,
+        "description": "REFIXING OF C.I. REEL",
+        "unit": "NOS",
+        "price": "38.00"
+    },
+    {
+        "id": 142,
+        "description": "EARTHING WITH EXIS DRIVEN EARTH SPIKE BY NEW G.I. WIRE",
+        "unit": "NOS",
+        "price": "41.00"
+    },
+    {
+        "id": 143,
+        "description": "ERECTION OF STAY BY EXIS GROUTED STAY SET",
+        "unit": "SET",
+        "price": "122.00"
+    },
+    {
+        "id": 144,
+        "description": "RE-SAG OF EXIS CG LEAD 2-W UPTO 30 MTR",
+        "unit": "NOS",
+        "price": "79.00"
+    },
+    {
+        "id": 145,
+        "description": "RE-SAG OF EXIS CG LEAD 2-W ABOVE 30 UPTO 60 MTR",
+        "unit": "NOS",
+        "price": "111.00"
+    },
+    {
+        "id": 146,
+        "description": "RE-SAG OF EXIS CG LEAD 2-W ABOVE 60 UPTO 100 MTR",
+        "unit": "NOS",
+        "price": "139.00"
+    },
+    {
+        "id": 147,
+        "description": "RE-SAG OF EXIS CG LEAD 4-W UPTO 30 MTR",
+        "unit": "NOS",
+        "price": "119.00"
+    },
+    {
+        "id": 148,
+        "description": "RE-SAG OF EXIS CG LEAD 4-W ABOVE 30 UPTO 60 MTR",
+        "unit": "NOS",
+        "price": "167.00"
+    },
+    {
+        "id": 149,
+        "description": "RE-SAG OF EXIS CG LEAD 4-W ABOVE 60 UPTO 100 MTR",
+        "unit": "NOS",
+        "price": "208.00"
+    },
+    {
+        "id": 150,
+        "description": "REFIXING OF CROSS LACING",
+        "unit": "NOS",
+        "price": "8.93"
+    },
+    {
+        "id": 151,
+        "description": "RESAGGING OF EXIS. COND. (ACSR 100, 1-W)",
+        "unit": "KM",
+        "price": "1876.00"
+    },
+    {
+        "id": 152,
+        "description": "RESAGGING OF EXIS. COND. (ACSR 100, 2-W)",
+        "unit": "KM",
+        "price": "3376.80"
+    },
+    {
+        "id": 153,
+        "description": "RESAGGING OF EXIS. COND. (ACSR 100, 3-W)",
+        "unit": "KM",
+        "price": "4502.40"
+    },
+    {
+        "id": 154,
+        "description": "RESAGGING OF EXIS. COND. (ACSR 100, 4-W)",
+        "unit": "KM",
+        "price": "5628.00"
+    },
+    {
+        "id": 155,
+        "description": "RESAGGING OF EXIS. COND. (ACSR 50, 1-W)",
+        "unit": "KM",
+        "price": "712.00"
+    },
+    {
+        "id": 156,
+        "description": "RESAGGING OF EXIS. COND. (ACSR 50, 2-W)",
+        "unit": "KM",
+        "price": "1281.60"
+    },
+    {
+        "id": 157,
+        "description": "RESAGGING OF EXIS. COND. (ACSR 50, 3-W)",
+        "unit": "KM",
+        "price": "1708.80"
+    },
+    {
+        "id": 158,
+        "description": "RESAGGING OF EXIS. COND. (ACSR 50, 4-W)",
+        "unit": "KM",
+        "price": "2136.00"
+    },
+    {
+        "id": 159,
+        "description": "RESAGGING OF EXIS. COND. (ACSR 30, 1-W)",
+        "unit": "KM",
+        "price": "618.00"
+    },
+    {
+        "id": 160,
+        "description": "RESAGGING OF EXIS. COND. (ACSR 30, 2-W)",
+        "unit": "KM",
+        "price": "1238.40"
+    },
+    {
+        "id": 161,
+        "description": "RESAGGING OF EXIS. COND. (ACSR 30, 3-W)",
+        "unit": "KM",
+        "price": "1651.20"
+    },
+    {
+        "id": 162,
+        "description": "RESAGGING OF EXIS. COND. (ACSR 30, 4-W)",
+        "unit": "KM",
+        "price": "2064.00"
+    },
+    {
+        "id": 163,
+        "description": "RESAGGING OF EXIS. COND. (ACSR 20, 1-W)",
+        "unit": "KM",
+        "price": "688.00"
+    },
+    {
+        "id": 164,
+        "description": "RESAGGING OF EXIS. COND. (ACSR 20, 3-W)",
+        "unit": "KM",
+        "price": "1238.40"
+    },
+    {
+        "id": 165,
+        "description": "RESAGGING OF EXIS. COND. (ACSR 20, 3-W)",
+        "unit": "KM",
+        "price": "1651.20"
+    },
+    {
+        "id": 166,
+        "description": "RESAGGING OF EXIS. COND. (ACSR 20, 4-W)",
+        "unit": "KM",
+        "price": "2064.00"
+    },
+    {
+        "id": 167,
+        "description": "RESAGGING OF EXIS. COND. (AAC 50, 1-W)",
+        "unit": "KM",
+        "price": "675.00"
+    },
+    {
+        "id": 168,
+        "description": "RESAGGING OF EXIS. COND. (AAC 50, 2-W)",
+        "unit": "KM",
+        "price": "1215.00"
+    },
+    {
+        "id": 169,
+        "description": "RESAGGING OF EXIS. COND. (AAC 50, 3-W)",
+        "unit": "KM",
+        "price": "1620.00"
+    },
+    {
+        "id": 170,
+        "description": "RESAGGING OF EXIS. COND. (AAC 50, 4-W)",
+        "unit": "KM",
+        "price": "2025.00"
+    },
+    {
+        "id": 171,
+        "description": "RESAGGING OF EXIS. COND. (AAC 25, 1-W)",
+        "unit": "KM",
+        "price": "625.00"
+    },
+    {
+        "id": 172,
+        "description": "RESAGGING OF EXIS. COND. (AAC 25, 2-W)",
+        "unit": "KM",
+        "price": "1125.00"
+    },
+    {
+        "id": 173,
+        "description": "RESAGGING OF EXIS. COND. (AAC 25, 3-W)",
+        "unit": "KM",
+        "price": "1500.00"
+    },
+    {
+        "id": 174,
+        "description": "RESAGGING OF EXIS. COND. (AAC 25, 4-W)",
+        "unit": "KM",
+        "price": "1875.00"
+    },
+    {
+        "id": 175,
+        "description": "DIS. OF EXIS. COND. & RETURN (ACSR 100, 1-W)",
+        "unit": "KM",
+        "price": "3001.00"
+    },
+    {
+        "id": 176,
+        "description": "DIS. OF EXIS. COND. & RETURN (ACSR 100, 2-W)",
+        "unit": "KM",
+        "price": "5401.80"
+    },
+    {
+        "id": 177,
+        "description": "DIS. OF EXIS. COND. & RETURN (ACSR 100, 3-W)",
+        "unit": "KM",
+        "price": "7202.40"
+    },
+    {
+        "id": 178,
+        "description": "DIS. OF EXIS. COND. & RETURN (ACSR 100, 4-W)",
+        "unit": "KM",
+        "price": "9003.00"
+    },
+    {
+        "id": 179,
+        "description": "DIS. OF EXIS. COND. & RETURN (ACSR 50, 1-W)",
+        "unit": "KM",
+        "price": "1139.00"
+    },
+    {
+        "id": 180,
+        "description": "DIS. OF EXIS. COND. & RETURN (ACSR 50, 2-W)",
+        "unit": "KM",
+        "price": "2050.20"
+    },
+    {
+        "id": 181,
+        "description": "DIS. OF EXIS. COND. & RETURN (ACSR 50, 3-W)",
+        "unit": "KM",
+        "price": "2733.60"
+    },
+    {
+        "id": 182,
+        "description": "DIS. OF EXIS. COND. & RETURN (ACSR 50, 4-W)",
+        "unit": "KM",
+        "price": "3417.00"
+    },
+    {
+        "id": 183,
+        "description": "DIS. OF EXIS. COND. & RETURN (ACSR 30, 1-W)",
+        "unit": "KM",
+        "price": "1101.00"
+    },
+    {
+        "id": 184,
+        "description": "DIS. OF EXIS. COND. & RETURN (ACSR 30, 2-W)",
+        "unit": "KM",
+        "price": "1981.80"
+    },
+    {
+        "id": 185,
+        "description": "DIS. OF EXIS. COND. & RETURN (ACSR 30, 3-W)",
+        "unit": "KM",
+        "price": "2642.40"
+    },
+    {
+        "id": 186,
+        "description": "DIS. OF EXIS. COND. & RETURN (ACSR 30, 4-W)",
+        "unit": "KM",
+        "price": "3303.00"
+    },
+    {
+        "id": 187,
+        "description": "DIS. OF EXIS. COND. & RETURN (ACSR 20, 1-W)",
+        "unit": "KM",
+        "price": "1101.00"
+    },
+    {
+        "id": 188,
+        "description": "DIS. OF EXIS. COND. & RETURN (ACSR 20, 2-W)",
+        "unit": "KM",
+        "price": "1981.80"
+    },
+    {
+        "id": 189,
+        "description": "DIS. OF EXIS. COND. & RETURN (ACSR 20, 3-W)",
+        "unit": "KM",
+        "price": "2642.40"
+    },
+    {
+        "id": 190,
+        "description": "DIS. OF EXIS. COND. & RETURN (ACSR 20, 4-W)",
+        "unit": "KM",
+        "price": "3303.00"
+    },
+    {
+        "id": 191,
+        "description": "DIS. OF EXIS. COND. & RETURN (AAC 50, 1-W)",
+        "unit": "KM",
+        "price": "1080.00"
+    },
+    {
+        "id": 192,
+        "description": "DIS. OF EXIS. COND. & RETURN (AAC 50, 2-W)",
+        "unit": "KM",
+        "price": "1944.00"
+    },
+    {
+        "id": 193,
+        "description": "DIS. OF EXIS. COND. & RETURN (AAC 50, 3-W)",
+        "unit": "KM",
+        "price": "2592.00"
+    },
+    {
+        "id": 194,
+        "description": "DIS. OF EXIS. COND. & RETURN (AAC 50, 4-W)",
+        "unit": "KM",
+        "price": "3240.00"
+    },
+    {
+        "id": 195,
+        "description": "DIS. OF EXIS. COND. & RETURN (AAC 25, 1-W)",
+        "unit": "KM",
+        "price": "1000.00"
+    },
+    {
+        "id": 196,
+        "description": "DIS. OF EXIS. COND. & RETURN (AAC 25, 2-W)",
+        "unit": "KM",
+        "price": "1800.00"
+    },
+    {
+        "id": 197,
+        "description": "DIS. OF EXIS. COND. & RETURN (AAC 25, 3-W)",
+        "unit": "KM",
+        "price": "2400.00"
+    },
+    {
+        "id": 198,
+        "description": "DIS. OF EXIS. COND. & RETURN (AAC 25, 4-W)",
+        "unit": "KM",
+        "price": "3000.00"
+    },
+    {
+        "id": 199,
+        "description": "DISMEN. & RE-FIX. LT SERVICE DOM/COM",
+        "unit": "NOS",
+        "price": "150.00"
+    },
+    {
+        "id": 200,
+        "description": "DISMEN. & RE-FIX. LT SERVICE INDUSTRIAL",
+        "unit": "NOS",
+        "price": "193.00"
+    },
+    {
+        "id": 201,
+        "description": "REP. OF SERVICE LINE BY NEW CABLE/COND.",
+        "unit": "NOS",
+        "price": "230.00"
+    },
+    {
+        "id": 202,
+        "description": "DIS. & REFIX. OF DEF. TPGO ISOLATOR ON NECES. ADJUST. 33 KV",
+        "unit": "SET",
+        "price": "1757.00"
+    },
+    {
+        "id": 203,
+        "description": "DIS. & REFIX. OF DEF. TPGO ISOLATOR ON NECES. ADJUST. 11 KV",
+        "unit": "SET",
+        "price": "1717.00"
+    },
+    {
+        "id": 204,
+        "description": "DISMEN. OF LT SERVICE MATE. AND RETURN TO STORE 1-PH",
+        "unit": "NOS",
+        "price": "245.00"
+    },
+    {
+        "id": 205,
+        "description": "DISMEN. OF LT SERVICE MATE. AND RETURN TO STORE 3-PH",
+        "unit": "NOS",
+        "price": "306.00"
+    },
+    {
+        "id": 206,
+        "description": "DISMEN. OF DEF. TPGO ISOLATOR & REP. BY NEW ONE 33 KV",
+        "unit": "SET",
+        "price": "2328.00"
+    },
+    {
+        "id": 207,
+        "description": "DISMEN. OF DEF. TPGO ISOLATOR & REP. BY NEW ONE 11 KV",
+        "unit": "SET",
+        "price": "1717.00"
+    },
+    {
+        "id": 208,
+        "description": "UPROOTING OF POLE & RET. TO STORE GOOD CON. RAIL POLE",
+        "unit": "NOS",
+        "price": "1000.00"
+    },
+    {
+        "id": 209,
+        "description": "UPROOTING OF POLE & RET. TO STORE GOOD CON. 9M PCC",
+        "unit": "NOS",
+        "price": "594.00"
+    },
+    {
+        "id": 210,
+        "description": "UPROOTING OF POLE & RET. TO STORE GOOD CON. 8M PCC",
+        "unit": "NOS",
+        "price": "383.00"
+    },
+    {
+        "id": 211,
+        "description": "UPROOTING OF POLE & RET. TO STORE GOOD CON. ST POLE",
+        "unit": "NOS",
+        "price": "630.00"
+    },
+    {
+        "id": 212,
+        "description": "DISMEN. & REFIX. OF LT BRACKET",
+        "unit": "NOS",
+        "price": "487.00"
+    },
+    {
+        "id": 213,
+        "description": "REP. OF OLD/DAM. LT PVC CABLE ON S/S WITH NEW CABLE 1 CIRCUIT",
+        "unit": "NOS",
+        "price": "342.00"
+    },
+    {
+        "id": 214,
+        "description": "REP. OF OLD/DAM. LT PVC CABLE ON S/S WITH NEW CABLE 2 CIRCUIT",
+        "unit": "NOS",
+        "price": "458.00"
+    },
+    {
+        "id": 215,
+        "description": "REP. OF BROKEN SP OF D.P. BY NEW ONE 8M PCC WITH EXIS. FITT.",
+        "unit": "NOS",
+        "price": "2935.00"
+    },
+    {
+        "id": 216,
+        "description": "REP. OF BROKEN SP OF T.P. BY NEW ONE 8M PCC WITH EXIS. FITT.",
+        "unit": "NOS",
+        "price": "5074.00"
+    },
+    {
+        "id": 217,
+        "description": "REP. OF BROKEN SP OF 4-P. BY NEW ONE 8M PCC WITH EXIS. FITT.",
+        "unit": "NOS",
+        "price": "5074.00"
+    },
+    {
+        "id": 218,
+        "description": "REP. OF BROKEN SP OF D.P. BY NEW ONE 9M PCC WITH EXIS. FITT.",
+        "unit": "NOS",
+        "price": "4491.00"
+    },
+    {
+        "id": 219,
+        "description": "REP. OF BROKEN SP OF T.P. BY NEW ONE 9M PCC WITH EXIS. FITT.",
+        "unit": "NOS",
+        "price": "9535.00"
+    },
+    {
+        "id": 220,
+        "description": "REP. OF BROKEN SP OF 4-P. BY NEW ONE 9M PCC WITH EXIS. FITT.",
+        "unit": "NOS",
+        "price": "9535.00"
+    },
+    {
+        "id": 221,
+        "description": "DISMEN. & RE-EREC. OF POLE SAME OR ADJ. LOCA. RAIL POLE",
+        "unit": "NOS",
+        "price": "4794.00"
+    },
+    {
+        "id": 222,
+        "description": "DISMEN. & RE-EREC. OF POLE SAME OR ADJ. LOCA. 9M PCC",
+        "unit": "NOS",
+        "price": "2851.00"
+    },
+    {
+        "id": 223,
+        "description": "DISMEN. & RE-EREC. OF POLE SAME OR ADJ. LOCA. 8M PCC",
+        "unit": "NOS",
+        "price": "1876.00"
+    },
+    {
+        "id": 224,
+        "description": "DISMEN. OF BROKEN POLE & EREC. OF POLE SAME OR ADJ. LOCA. 8M PCC",
+        "unit": "NOS",
+        "price": "2916.00"
+    },
+    {
+        "id": 225,
+        "description": "DISMEN. & RE-EREC. OF POLE SAME OR ADJ. LOCA. ST POLE",
+        "unit": "NOS",
+        "price": "2916.00"
+    },
+    {
+        "id": 226,
+        "description": "CONV. OF EXIS. SP TO DP S/S STR. WITH FOUN. & FITT. RAIL POLE",
+        "unit": "NOS",
+        "price": "11455.00"
+    },
+    {
+        "id": 227,
+        "description": "CONV. OF EXIS. SP TO DP S/S STR. WITH FOUN. & FITT. 8M PCC",
+        "unit": "NOS",
+        "price": "8969.00"
+    },
+    {
+        "id": 228,
+        "description": "CONV. OF EXIS. SP TO DP S/S STR. WITH FOUN. & FITT. 9M PCC",
+        "unit": "NOS",
+        "price": "10549.00"
+    },
+    {
+        "id": 229,
+        "description": "CONV. OF EXIS. DP TO 4-P S/S STR. WITH FOUN. & FITT. 8M PCC",
+        "unit": "NOS",
+        "price": "9137.00"
+    },
+    {
+        "id": 230,
+        "description": "ERECTION OF 33 KV TPGO ISOLATOR",
+        "unit": "SET",
+        "price": "1589.00"
+    },
+    {
+        "id": 231,
+        "description": "FIX. OF S/C W/O FIX. OF METER 1-PH",
+        "unit": "NOS",
+        "price": "308.00"
+    },
+    {
+        "id": 232,
+        "description": "FIX. OF S/C WITH FIX. OF METER 1-PH",
+        "unit": "NOS",
+        "price": "504.00"
+    },
+    {
+        "id": 233,
+        "description": "FIX. OF S/C WITH FIX. OF METER & W/O PP BOX 3-PH",
+        "unit": "NOS",
+        "price": "570.00"
+    },
+    {
+        "id": 234,
+        "description": "FIX. OF CUT OUT IN PLACE OF MAIN SWITCH ON S/S 1-CIRCUIT",
+        "unit": "NOS",
+        "price": "630.00"
+    },
+    {
+        "id": 235,
+        "description": "FIX. OF CUT OUT IN PLACE OF MAIN SWITCH ON S/S 2-CIRCUIT",
+        "unit": "NOS",
+        "price": "1037.00"
+    },
+    {
+        "id": 236,
+        "description": "FIX. OF S/C WITH FIX. OF METER & WITH PP BOX 3-PH",
+        "unit": "NOS",
+        "price": "676.00"
+    },
+    {
+        "id": 237,
+        "description": "DIS. OF 3-PH ENERGY METER & FIX. OF NEW ONE WITH PP BOX",
+        "unit": "NOS",
+        "price": "884.00"
+    },
+    {
+        "id": 238,
+        "description": "FIX. OF 1-PH ENERGY METER WITH PP BOX",
+        "unit": "NOS",
+        "price": "295.00"
+    },
+    {
+        "id": 239,
+        "description": "FIX. & RE-FIX. OF 1-PH ENERGY METER WITH PP BOX",
+        "unit": "NOS",
+        "price": "454.00"
+    },
+    {
+        "id": 240,
+        "description": "DIS. CONN. OF SERVICE LINE 1-PH",
+        "unit": "NOS",
+        "price": "65.00"
+    },
+    {
+        "id": 241,
+        "description": "DIS. CONN. OF SERVICE LINE 3-PH",
+        "unit": "NOS",
+        "price": "88.00"
+    },
+    {
+        "id": 242,
+        "description": "RE-CONN. OF SERVICE LINE 1-PH",
+        "unit": "NOS",
+        "price": "58.00"
+    },
+    {
+        "id": 243,
+        "description": "RE-CONN. OF SERVICE LINE 3-PH",
+        "unit": "NOS",
+        "price": "88.00"
+    },
+    {
+        "id": 244,
+        "description": "REP. OF OLD/DEF. METER WITH PP BOX 1-PH",
+        "unit": "NOS",
+        "price": "153.00"
+    },
+    {
+        "id": 245,
+        "description": "REP. OF OLD/DEF. METER WITH PP BOX 3-PH",
+        "unit": "NOS",
+        "price": "204.00"
+    },
+    {
+        "id": 246,
+        "description": "REP. OF OLD/DEF. METER W/O PP BOX 1-PH",
+        "unit": "NOS",
+        "price": "122.00"
+    },
+    {
+        "id": 247,
+        "description": "REP. OF OLD/DEF. METER W/O PP BOX 3-PH",
+        "unit": "NOS",
+        "price": "153.00"
+    },
+    {
+        "id": 248,
+        "description": "WALK OUT SERVEY FOR IDENTI. OF REMOTE VERGIN MOUZAS",
+        "unit": "NOS",
+        "price": "130.00"
+    },
+    {
+        "id": 249,
+        "description": "COST OF RETURNABLE DAMAGE WOOD POLE",
+        "unit": "NOS",
+        "price": "402.00"
+    },
+    {
+        "id": 250,
+        "description": "I-TYPE SERVICE WITH PVC 6SQMM 2C",
+        "unit": "NOS",
+        "price": "2820.00"
+    },
+    {
+        "id": 251,
+        "description": "L-TYPE SERVICE WITH PVC 6SQMM 2C",
+        "unit": "NOS",
+        "price": "3519.00"
+    },
+    {
+        "id": 252,
+        "description": "I-TYPE SERVICE WITH PVC 4SQMM 2C",
+        "unit": "NOS",
+        "price": "2020.00"
+    },
+    {
+        "id": 253,
+        "description": "L-TYPE SERVICE WITH PVC 4SQMM 2C",
+        "unit": "NOS",
+        "price": "2721.00"
+    },
+    {
+        "id": 254,
+        "description": "RE-FIX. OF LT SPACER 1-PH UNIT",
+        "unit": "NOS",
+        "price": "37.00"
+    },
+    {
+        "id": 255,
+        "description": "RE-FIX. OF LT SPACER 3-PH UNIT",
+        "unit": "NOS",
+        "price": "56.00"
+    },
+    {
+        "id": 256,
+        "description": "STR & SAG OF LT AB CABLE(3X70+1X16+1X50)",
+        "unit": "KM",
+        "price": "50000.00"
+    },
+    {
+        "id": 257,
+        "description": "STR & SAG OF LT AB CABLE(3X70+1X16+1X35)",
+        "unit": "KM",
+        "price": "46000.00"
+    },
+    {
+        "id": 258,
+        "description": "STR & SAG OF LT AB CABLE (3X50+1X16+1X35)",
+        "unit": "KM",
+        "price": "29000.00"
+    },
+    {
+        "id": 259,
+        "description": "ERECT. OF ANCHOR CLAMP FOR LT AB CABLE",
+        "unit": "NOS",
+        "price": "154.00"
+    },
+    {
+        "id": 260,
+        "description": "ERECT. OF SUSPE. CLAMP FOR LT AB CABLE",
+        "unit": "NOS",
+        "price": "154.00"
+    },
+    {
+        "id": 261,
+        "description": "EREC. OF PIERCING CON. FOR STREET LIGHT",
+        "unit": "NOS",
+        "price": "32.00"
+    },
+    {
+        "id": 262,
+        "description": "EREC. OF PIERCING CON. FOR D.B.",
+        "unit": "NOS",
+        "price": "32.00"
+    },
+    {
+        "id": 263,
+        "description": "EREC. OF PIERCING CON. FOR TEE-CONN",
+        "unit": "NOS",
+        "price": "32.00"
+    },
+    {
+        "id": 264,
+        "description": "EREC OF D.B. ON POLE 2 NOS STRAP & GI CL",
+        "unit": "NOS",
+        "price": "507.00"
+    },
+    {
+        "id": 265,
+        "description": "EREC OF PRE-INSU W-PROOF SLEEVES ST JOIN",
+        "unit": "NOS",
+        "price": "106.00"
+    },
+    {
+        "id": 266,
+        "description": "EREC OF BIMETALLIC LUG FOR LT POWER CAB",
+        "unit": "NOS",
+        "price": "59.00"
+    },
+    {
+        "id": 267,
+        "description": "DIS. OF LT AB CABLE(3X50+1X35+1X16) & RETURN",
+        "unit": "KM",
+        "price": "13000.00"
+    },
+    {
+        "id": 268,
+        "description": "DIS. OF LT AB CABLE(3X70+1X50+1X16) & RETURN",
+        "unit": "KM",
+        "price": "13000.00"
+    },
+    {
+        "id": 269,
+        "description": "DIS. OF LT AB CABLE(3X50+1X35) & RETURN",
+        "unit": "KM",
+        "price": "13000.00"
+    },
+    {
+        "id": 270,
+        "description": "DIS. OF LT AB CABLE(3X50+1X35+1X16) & RE-EREC",
+        "unit": "KM",
+        "price": "13000.00"
+    },
+    {
+        "id": 271,
+        "description": "DIS. OF LT AB CABLE(3X70+1X50+1X16) & RE-EREC",
+        "unit": "KM",
+        "price": "13000.00"
+    },
+    {
+        "id": 272,
+        "description": "DIS. OF LT AB CABLE(3X50+1X35) & RE-EREC",
+        "unit": "KM",
+        "price": "13000.00"
+    },
+    {
+        "id": 273,
+        "description": "RE-SAG OF LT AB CABLE(3X50+1X35+1X16)",
+        "unit": "KM",
+        "price": "13000.00"
+    },
+    {
+        "id": 274,
+        "description": "RE-SAG OF LT AB CABLE(3X70+1X50+1X16)",
+        "unit": "KM",
+        "price": "13000.00"
+    },
+    {
+        "id": 275,
+        "description": "RE-SAG OF LT AB CABLE(3X50+1X35)",
+        "unit": "KM",
+        "price": "13000.00"
+    },
+    {
+        "id": 276,
+        "description": "REP OF DAMAGE LT DB BY NEW ONE",
+        "unit": "NOS",
+        "price": "440.00"
+    },
+    {
+        "id": 277,
+        "description": "REP OF DAM. ANCHOR CL. BY NEW ONE LT",
+        "unit": "NOS",
+        "price": "117.00"
+    },
+    {
+        "id": 278,
+        "description": "REP OF DAM. SUSPENSION CL. BY NEW ONE LT",
+        "unit": "NOS",
+        "price": "117.00"
+    },
+    {
+        "id": 279,
+        "description": "STR & SAG OF HT AB CABLE (3X95+1X180)",
+        "unit": "KM",
+        "price": "48000.00"
+    },
+    {
+        "id": 280,
+        "description": "STR & SAG OF HT AB CABLE (3X50+1X105)",
+        "unit": "KM",
+        "price": "41000.00"
+    },
+    {
+        "id": 281,
+        "description": "ERECT. OF ANCHOR CLAMP FOR HT AB CABLE",
+        "unit": "NOS",
+        "price": "259.00"
+    },
+    {
+        "id": 282,
+        "description": "ERECT. OF SUSPE. CLAMP FOR HT AB CABLE",
+        "unit": "NOS",
+        "price": "259.00"
+    },
+    {
+        "id": 283,
+        "description": "DIS. OF HT AB CABLE(3X50+1X105) & RETURN",
+        "unit": "KM",
+        "price": "21000.00"
+    },
+    {
+        "id": 284,
+        "description": "DIS. OF HT AB CABLE(3X95+1X180) & RETURN",
+        "unit": "KM",
+        "price": "21000.00"
+    },
+    {
+        "id": 285,
+        "description": "DIS. OF LT AB CABLE(3X50+1X105) & RE-EREC",
+        "unit": "KM",
+        "price": "22000.00"
+    },
+    {
+        "id": 286,
+        "description": "DIS. OF LT AB CABLE(3X95+1X180) & RE-EREC",
+        "unit": "KM",
+        "price": "22000.00"
+    },
+    {
+        "id": 287,
+        "description": "RE-SAG OF LT AB CABLE(3X50+1X105)",
+        "unit": "KM",
+        "price": "16000.00"
+    },
+    {
+        "id": 288,
+        "description": "RE-SAG OF LT AB CABLE(3X95+1X180)",
+        "unit": "KM",
+        "price": "16000.00"
+    },
+    {
+        "id": 289,
+        "description": "REP OF DAM. ANCHOR CL. BY NEW ONE HT",
+        "unit": "NOS",
+        "price": "293.00"
+    },
+    {
+        "id": 290,
+        "description": "REP OF DAM. SUSPENSION CL. BY NEW ONE HT",
+        "unit": "NOS",
+        "price": "293.00"
+    },
+    {
+        "id": 291,
+        "description": "O/D TERMI. OF 1X50 Sq MM HT AB CABLE H/S KIT",
+        "unit": "SET",
+        "price": "1272.00"
+    },
+    {
+        "id": 292,
+        "description": "O/D TERMI. OF 1X95 Sq MM HT AB CABLE H/S KIT",
+        "unit": "SET",
+        "price": "1272.00"
+    },
+    {
+        "id": 293,
+        "description": "S/T JOINT OF HT AB CABLE 1X50 Sq MM H/S.",
+        "unit": "SET",
+        "price": "1274.00"
+    },
+    {
+        "id": 294,
+        "description": "S/T JOINT OF HT AB CABLE 1X95 Sq MM H/S.",
+        "unit": "SET",
+        "price": "1274.00"
+    },
+    {
+        "id": 295,
+        "description": "TEE-JOINT OF HT AB CABLE 1X50 Sq  (STORE MATERIAL)",
+        "unit": "SET",
+        "price": "1281.00"
+    },
+    {
+        "id": 296,
+        "description": "TEE-JOINT OF HT AB CABLE 1X95 Sq  (STORE MATERIAL)",
+        "unit": "SET",
+        "price": "1281.00"
+    },
+    {
+        "id": 297,
+        "description": "FIXING OF M.S ANGLE BRACKET (FEBRICATED)",
+        "unit": "NOS",
+        "price": "581.00"
+    },
+    {
+        "id": 298,
+        "description": "FIXING OF LT METER-KOISK WITH CONN-2 CKT",
+        "unit": "NOS",
+        "price": "2819.00"
+    },
+    {
+        "id": 299,
+        "description": "FIXING OF LT METER-KOISK WITH CONN-1 CKT",
+        "unit": "NOS",
+        "price": "2033.00"
+    },
+    {
+        "id": 300,
+        "description": "FABR. & FIXING OF M.S ANGLE- BRACKET",
+        "unit": "NOS",
+        "price": "554.00"
+    },
+    {
+        "id": 301,
+        "description": "RE-SAG EXISTING AAC 25 SQMM 4W",
+        "unit": "KM",
+        "price": "1809.00"
+    },
+    {
+        "id": 302,
+        "description": "RRECTION OF 12.8 M RAIL S/STN DP WITH FITINGSE",
+        "unit": "nos",
+        "price": "15264.00"
+    },
+    {
+        "id": 303,
+        "description": "FABR & FIXING OF BOX BRACKET",
+        "unit": "NOS",
+        "price": "1314.00"
+    },
+    {
+        "id": 304,
+        "description": "LOOP TY SERVICE WITH 2 C 6 CABLE",
+        "unit": "NOS",
+        "price": "268.00"
+    },
+    {
+        "id": 305,
+        "description": "Dismantld. of 30 sqmm ACSR (1w) & retn.",
+        "unit": "KM",
+        "price": "897.00"
+    },
+    {
+        "id": 306,
+        "description": "Errection of 8 M PCC S/STN DP With Fitting",
+        "unit": "NOS",
+        "price": "10735.00"
+    },
+    {
+        "id": 307,
+        "description": "ERRECTION OF 8 M PCC SP WITH FITNG",
+        "unit": "NOS",
+        "price": "1555.00"
+    },
+    {
+        "id": 308,
+        "description": "FABR & FIXING OF T-OFF BRACKET ON SP",
+        "unit": "NOS",
+        "price": "1388.00"
+    },
+    {
+        "id": 309,
+        "description": "Fixng of LT Meter-koisk with Conn-2 ckt.",
+        "unit": "NOS",
+        "price": "2819.00"
+    },
+    {
+        "id": 310,
+        "description": "EXTN. OF 8M PCC SP UPTO 3 METER",
+        "unit": "NOS",
+        "price": "1394.00"
+    },
+    {
+        "id": 311,
+        "description": "DTR PIPE EARTHING INCLD SUPPLY MATERIALS",
+        "unit": "NOS",
+        "price": "3825.00"
+    },
+    {
+        "id": 312,
+        "description": "Fixing of Sky Guard ON D.P",
+        "unit": "NOS",
+        "price": "369.00"
+    },
+    {
+        "id": 313,
+        "description": "DIS OF LT SPACER 1-PH UNIT",
+        "unit": "NOS",
+        "price": "33.00"
+    },
+    {
+        "id": 314,
+        "description": "DIS OF LT SPACER 3-PH UNIT",
+        "unit": "NOS",
+        "price": "56.00"
+    },
+    {
+        "id": 315,
+        "description": "DIS OF LT SHACKLE  INSULATOR & RETURN",
+        "unit": "NOS",
+        "price": "33.00"
+    },
+    {
+        "id": 316,
+        "description": "DIS OF 11 KV PIN INSU & RETURN",
+        "unit": "NOS",
+        "price": "57.00"
+    },
+    {
+        "id": 317,
+        "description": "DIS OF 11 KV DISC INSU & RETURN",
+        "unit": "NOS",
+        "price": "58.00"
+    },
+    {
+        "id": 318,
+        "description": "DIS OF 4P FITTINGS & RETURN TO STORE",
+        "unit": "NOS",
+        "price": "3000.00"
+    },
+    {
+        "id": 319,
+        "description": "DIS OF SP FITTINGS & RETURN TO STORE",
+        "unit": "NOS",
+        "price": "534.00"
+    },
+    {
+        "id": 320,
+        "description": "DIS OF DP FITTINGS & RETURN TO STORE",
+        "unit": "NOS",
+        "price": "1500.00"
+    },
+    {
+        "id": 321,
+        "description": "SURVEY FOR L & MV OH LINE",
+        "unit": "NOS",
+        "price": "1414.00"
+    },
+    {
+        "id": 322,
+        "description": "I/T-ty. service with 4 c 16 cable including mat.",
+        "unit": "NOS",
+        "price": "6117.00"
+    },
+    {
+        "id": 323,
+        "description": "I/T-ty. service with 4 c 25 cable including mat.",
+        "unit": "NOS",
+        "price": "7023.00"
+    },
+    {
+        "id": 324,
+        "description": "CABLE JOINT O/D 185 SQMM 1.1 KV GRADE",
+        "unit": "NOS",
+        "price": "544.00"
+    },
+    {
+        "id": 325,
+        "description": "CABLE JOINT I/D 185 SQMM 1.1 KV GRADE",
+        "unit": "NOS",
+        "price": "544.00"
+    },
+    {
+        "id": 326,
+        "description": "I/T-ty SERVICE WITH 2C 6 CABLE INSLUDING",
+        "unit": "NOS",
+        "price": "2602.44"
+    },
+    {
+        "id": 327,
+        "description": "FEBRICATE & FIXING OF MS BOX BRACKET",
+        "unit": "NOS",
+        "price": "1414.00"
+    },
+    {
+        "id": 328,
+        "description": "REPLACEMENT OF 3 PH METER",
+        "unit": "NOS",
+        "price": "204.00"
+    },
+    {
+        "id": 329,
+        "description": "REPL.OF 10/25 KVA DTR",
+        "unit": "NOS",
+        "price": "2205.00"
+    },
+    {
+        "id": 330,
+        "description": "DISMANTLD & RE-FIXING OF STW SERVICE",
+        "unit": "NOS",
+        "price": "193.00"
+    },
+    {
+        "id": 331,
+        "description": "DISMEN. OF BROKEN POLE & EREC OF POLE",
+        "unit": "NOS",
+        "price": "1876.00"
+    },
+    {
+        "id": 332,
+        "description": "3PH S/C INCLUDING MATERIALS I-TYPE SERVICE",
+        "unit": "NOS",
+        "price": "4551.00"
+    },
+    {
+        "id": 1000,
+        "description": "NO LABOUR",
+        "unit": "NOS",
+        "price": "1.00"
+    },
+    {
+        "id": 1001,
+        "description": "REPLACE OF 25 KVA DTR",
+        "unit": "NOS",
+        "price": "2141.00"
+    },
+    {
+        "id": 5001,
+        "description": "RAMU",
+        "unit": "NOS",
+        "price": "1.00"
+    }
+]
