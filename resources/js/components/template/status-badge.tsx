@@ -6,8 +6,7 @@ export type StatusVariant =
 
 const variantClasses: Record<StatusVariant, string> = {
     success: 'border-success/25 bg-success/10 text-success',
-    warning:
-        'border-warning/40 bg-warning/15 text-warning-foreground dark:text-warning',
+    warning: 'border-warning/40 bg-warning text-warning-foreground',
     info: 'border-info/25 bg-info/10 text-info',
     destructive: 'border-destructive/25 bg-destructive/10 text-destructive',
     neutral: 'border-border bg-muted text-muted-foreground',
